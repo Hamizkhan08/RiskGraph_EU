@@ -1,0 +1,7922 @@
+[
+ {
+  "id": "RG-HI-3192-20251012",
+  "dataset": "HI",
+  "account": "account_3192",
+  "date": "2025-10-12",
+  "decision_timestamp": "2025-10-13 00:00:00",
+  "score": 0.9788497090339661,
+  "p_cal": 0.3726142801476298,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 451.0,
+   "hub_neighbour_share": 0.6363636255264282,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 2981.030029296875,
+   "in_1d": 2771.5400390625,
+   "out_7d": 3581.1298828125,
+   "in_7d": 2827.4599609375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3277-20251012",
+  "dataset": "HI",
+  "account": "account_3277",
+  "date": "2025-10-12",
+  "decision_timestamp": "2025-10-13 00:00:00",
+  "score": 0.9479213356971741,
+  "p_cal": 0.19461033367328445,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 40.0,
+   "reach2_7d": 753.0,
+   "hub_neighbour_share": 0.32499998807907104,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 7.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 210.3800048828125,
+   "in_1d": 1832.6800537109375,
+   "out_7d": 910.2000122070312,
+   "in_7d": 3159.780029296875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6757-20251012",
+  "dataset": "HI",
+  "account": "account_6757",
+  "date": "2025-10-12",
+  "decision_timestamp": "2025-10-13 00:00:00",
+  "score": 0.8702576160430908,
+  "p_cal": 0.08452915362780797,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 546.0,
+   "hub_neighbour_share": 0.9166666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 9882.9697265625,
+   "in_1d": 0.0,
+   "out_7d": 10246.5498046875,
+   "in_7d": 9794.2001953125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6150-20251012",
+  "dataset": "HI",
+  "account": "account_6150",
+  "date": "2025-10-12",
+  "decision_timestamp": "2025-10-13 00:00:00",
+  "score": 0.8543399572372437,
+  "p_cal": 0.07504532622745891,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 560.0,
+   "hub_neighbour_share": 0.692307710647583,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2394.090087890625,
+   "out_7d": 2397.75,
+   "in_7d": 2597.60009765625,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5083-20251013",
+  "dataset": "HI",
+  "account": "account_5083",
+  "date": "2025-10-13",
+  "decision_timestamp": "2025-10-14 00:00:00",
+  "score": 0.9596941471099854,
+  "p_cal": 0.2383980448942134,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 703.0,
+   "hub_neighbour_share": 0.4333333373069763,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 70.33000183105469,
+   "in_1d": 2541.81005859375,
+   "out_7d": 8203.8095703125,
+   "in_7d": 3798.679931640625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6743-20251013",
+  "dataset": "HI",
+  "account": "account_6743",
+  "date": "2025-10-13",
+  "decision_timestamp": "2025-10-14 00:00:00",
+  "score": 0.95784991979599,
+  "p_cal": 0.23032968862886685,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 45.0,
+   "reach2_7d": 814.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 1138.1300048828125,
+   "in_1d": 781.8699951171875,
+   "out_7d": 5256.10986328125,
+   "in_7d": 2258.56005859375,
+   "n_tx_1d": 9.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2773-20251013",
+  "dataset": "HI",
+  "account": "account_2773",
+  "date": "2025-10-13",
+  "decision_timestamp": "2025-10-14 00:00:00",
+  "score": 0.8188037872314453,
+  "p_cal": 0.059358377694215106,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 342.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 91.79000091552734,
+   "in_1d": 2790.18994140625,
+   "out_7d": 1595.699951171875,
+   "in_7d": 2790.18994140625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6386-20251014",
+  "dataset": "HI",
+  "account": "account_6386",
+  "date": "2025-10-14",
+  "decision_timestamp": "2025-10-15 00:00:00",
+  "score": 0.9694905877113342,
+  "p_cal": 0.29248430308807444,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 660.0,
+   "hub_neighbour_share": 0.4642857015132904,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 1117.77001953125,
+   "in_1d": 4204.33984375,
+   "out_7d": 1432.0699462890625,
+   "in_7d": 5007.68994140625,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2910-20251014",
+  "dataset": "HI",
+  "account": "account_2910",
+  "date": "2025-10-14",
+  "decision_timestamp": "2025-10-15 00:00:00",
+  "score": 0.9163636565208435,
+  "p_cal": 0.1290404143057863,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 204.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2666.669921875,
+   "in_1d": 43.58000183105469,
+   "out_7d": 2708.81005859375,
+   "in_7d": 2851.969970703125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3461-20251014",
+  "dataset": "HI",
+  "account": "account_3461",
+  "date": "2025-10-14",
+  "decision_timestamp": "2025-10-15 00:00:00",
+  "score": 0.892320990562439,
+  "p_cal": 0.10168969692824562,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 317.0,
+   "hub_neighbour_share": 0.7777777910232544,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 333.7200012207031,
+   "in_1d": 2911.639892578125,
+   "out_7d": 4068.029296875,
+   "in_7d": 2951.760009765625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3001-20251014",
+  "dataset": "HI",
+  "account": "account_3001",
+  "date": "2025-10-14",
+  "decision_timestamp": "2025-10-15 00:00:00",
+  "score": 0.8350460529327393,
+  "p_cal": 0.06577132426529023,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 396.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 3952.739990234375,
+   "out_7d": 729.6199951171875,
+   "in_7d": 4061.889892578125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3305-20251015",
+  "dataset": "HI",
+  "account": "account_3305",
+  "date": "2025-10-15",
+  "decision_timestamp": "2025-10-16 00:00:00",
+  "score": 0.8774394989013672,
+  "p_cal": 0.08951718922298846,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 20.0,
+   "reach2_7d": 522.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 4307.64990234375,
+   "in_1d": 220.82000732421875,
+   "out_7d": 12292.98046875,
+   "in_7d": 2878.949951171875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5598-20251015",
+  "dataset": "HI",
+  "account": "account_5598",
+  "date": "2025-10-15",
+  "decision_timestamp": "2025-10-16 00:00:00",
+  "score": 0.8753026723861694,
+  "p_cal": 0.08798013368211292,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 644.0,
+   "hub_neighbour_share": 0.7692307829856873,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 2473.360107421875,
+   "in_1d": 0.0,
+   "out_7d": 5117.8701171875,
+   "in_7d": 5607.10986328125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2984-20251016",
+  "dataset": "HI",
+  "account": "account_2984",
+  "date": "2025-10-16",
+  "decision_timestamp": "2025-10-17 00:00:00",
+  "score": 0.9775120615959167,
+  "p_cal": 0.35860285876941844,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 517.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 196.50999450683594,
+   "in_1d": 2975.949951171875,
+   "out_7d": 976.6799926757812,
+   "in_7d": 3741.5400390625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2132-20251016",
+  "dataset": "HI",
+  "account": "account_2132",
+  "date": "2025-10-16",
+  "decision_timestamp": "2025-10-17 00:00:00",
+  "score": 0.968053936958313,
+  "p_cal": 0.2831032718684585,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 396.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 84.16999816894531,
+   "in_1d": 3375.27001953125,
+   "out_7d": 840.6099853515625,
+   "in_7d": 4660.2099609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6362-20251017",
+  "dataset": "HI",
+  "account": "account_6362",
+  "date": "2025-10-17",
+  "decision_timestamp": "2025-10-18 00:00:00",
+  "score": 0.9842818975448608,
+  "p_cal": 0.4428442350330216,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 461.0,
+   "hub_neighbour_share": 0.4583333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 11289.509765625,
+   "in_1d": 4561.39990234375,
+   "out_7d": 12746.3603515625,
+   "in_7d": 5239.25,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5095-20251017",
+  "dataset": "HI",
+  "account": "account_5095",
+  "date": "2025-10-17",
+  "decision_timestamp": "2025-10-18 00:00:00",
+  "score": 0.9625826478004456,
+  "p_cal": 0.2521977313343575,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 505.0,
+   "hub_neighbour_share": 0.5199999809265137,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 3013.580078125,
+   "out_7d": 9500.75,
+   "in_7d": 3688.760009765625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6531-20251018",
+  "dataset": "HI",
+  "account": "account_6531",
+  "date": "2025-10-18",
+  "decision_timestamp": "2025-10-19 00:00:00",
+  "score": 0.9822182059288025,
+  "p_cal": 0.41325379405592444,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 410.0,
+   "hub_neighbour_share": 0.27272728085517883,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 2797.8798828125,
+   "in_1d": 2485.2099609375,
+   "out_7d": 3480.169921875,
+   "in_7d": 2998.1298828125,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3118-20251018",
+  "dataset": "HI",
+  "account": "account_3118",
+  "date": "2025-10-18",
+  "decision_timestamp": "2025-10-19 00:00:00",
+  "score": 0.9665079712867737,
+  "p_cal": 0.2736460297738113,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 558.0,
+   "hub_neighbour_share": 0.29629629850387573,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 7051.35009765625,
+   "in_1d": 12633.5,
+   "out_7d": 17041.890625,
+   "in_7d": 14445.2099609375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6360-20251018",
+  "dataset": "HI",
+  "account": "account_6360",
+  "date": "2025-10-18",
+  "decision_timestamp": "2025-10-19 00:00:00",
+  "score": 0.8593856692314148,
+  "p_cal": 0.07784427067051454,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 15.0,
+   "reach2_7d": 368.0,
+   "hub_neighbour_share": 0.5333333611488342,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 333.7799987792969,
+   "in_1d": 4185.72998046875,
+   "out_7d": 1409.739990234375,
+   "in_7d": 5164.330078125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5011-20251019",
+  "dataset": "HI",
+  "account": "account_5011",
+  "date": "2025-10-19",
+  "decision_timestamp": "2025-10-20 00:00:00",
+  "score": 0.9623122811317444,
+  "p_cal": 0.250840608675951,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 298.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 4347.7099609375,
+   "out_7d": 2034.550048828125,
+   "in_7d": 4347.7099609375,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6176-20251019",
+  "dataset": "HI",
+  "account": "account_6176",
+  "date": "2025-10-19",
+  "decision_timestamp": "2025-10-20 00:00:00",
+  "score": 0.8537107110023499,
+  "p_cal": 0.07470838964656479,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 634.0,
+   "hub_neighbour_share": 0.37037035822868347,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2815.929931640625,
+   "in_1d": 30.81999969482422,
+   "out_7d": 12662.7802734375,
+   "in_7d": 3581.2099609375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6559-20251019",
+  "dataset": "HI",
+  "account": "account_6559",
+  "date": "2025-10-19",
+  "decision_timestamp": "2025-10-20 00:00:00",
+  "score": 0.82297283411026,
+  "p_cal": 0.060902623857694425,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 539.0,
+   "hub_neighbour_share": 0.6428571343421936,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2122.7099609375,
+   "out_7d": 775.02001953125,
+   "in_7d": 10325.9599609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2505-20251020",
+  "dataset": "HI",
+  "account": "account_2505",
+  "date": "2025-10-20",
+  "decision_timestamp": "2025-10-21 00:00:00",
+  "score": 0.9703466892242432,
+  "p_cal": 0.29837025284839613,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 566.0,
+   "hub_neighbour_share": 0.2916666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 29.420000076293945,
+   "in_1d": 11165.4296875,
+   "out_7d": 421.9200134277344,
+   "in_7d": 11458.4599609375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4650-20251020",
+  "dataset": "HI",
+  "account": "account_4650",
+  "date": "2025-10-20",
+  "decision_timestamp": "2025-10-21 00:00:00",
+  "score": 0.8722946643829346,
+  "p_cal": 0.08589353405672277,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 649.0,
+   "hub_neighbour_share": 0.37037035822868347,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 173.49000549316406,
+   "in_1d": 987.719970703125,
+   "out_7d": 1158.0999755859375,
+   "in_7d": 1537.5400390625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5770-20251020",
+  "dataset": "HI",
+  "account": "account_5770",
+  "date": "2025-10-20",
+  "decision_timestamp": "2025-10-21 00:00:00",
+  "score": 0.8639250993728638,
+  "p_cal": 0.08051993731242617,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 33.0,
+   "reach2_7d": 1014.0,
+   "hub_neighbour_share": 0.4545454680919647,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2669.139892578125,
+   "in_1d": 1289.260009765625,
+   "out_7d": 14030.4697265625,
+   "in_7d": 4985.22509765625,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6485-20251021",
+  "dataset": "HI",
+  "account": "account_6485",
+  "date": "2025-10-21",
+  "decision_timestamp": "2025-10-22 00:00:00",
+  "score": 0.9629712104797363,
+  "p_cal": 0.25417334824694543,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 46.0,
+   "reach2_7d": 839.0,
+   "hub_neighbour_share": 0.3478260934352875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 8.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 8.0
+  },
+  "amounts": {
+   "out_1d": 783.47998046875,
+   "in_1d": 4996.02978515625,
+   "out_7d": 3561.610107421875,
+   "in_7d": 6220.8701171875,
+   "n_tx_1d": 12.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6914-20251021",
+  "dataset": "HI",
+  "account": "account_6914",
+  "date": "2025-10-21",
+  "decision_timestamp": "2025-10-22 00:00:00",
+  "score": 0.9118499159812927,
+  "p_cal": 0.12293969438540421,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 183.0,
+   "reach2_7d": 2000.0,
+   "hub_neighbour_share": 0.20218579471111298,
+   "cycles": {
+    "c2": 2.0,
+    "c3": 19.0,
+    "c4": 135.0
+   },
+   "fanin_burst_3d": 17.0,
+   "fanout_burst_3d": 17.0
+  },
+  "amounts": {
+   "out_1d": 9906.3095703125,
+   "in_1d": 3097.949951171875,
+   "out_7d": 94613.3671875,
+   "in_7d": 12546.419921875,
+   "n_tx_1d": 34.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5498-20251022",
+  "dataset": "HI",
+  "account": "account_5498",
+  "date": "2025-10-22",
+  "decision_timestamp": "2025-10-23 00:00:00",
+  "score": 0.9795712828636169,
+  "p_cal": 0.3806343941786285,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 577.0,
+   "hub_neighbour_share": 0.3076923191547394,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 516.5700073242188,
+   "in_1d": 3826.429931640625,
+   "out_7d": 10216.3095703125,
+   "in_7d": 5752.919921875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3300-20251022",
+  "dataset": "HI",
+  "account": "account_3300",
+  "date": "2025-10-22",
+  "decision_timestamp": "2025-10-23 00:00:00",
+  "score": 0.9635649919509888,
+  "p_cal": 0.25725131412005364,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 4.0,
+   "reach2_7d": 79.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 6814.009765625,
+   "in_1d": 6994.10986328125,
+   "out_7d": 6814.009765625,
+   "in_7d": 7120.5,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3345-20251022",
+  "dataset": "HI",
+  "account": "account_3345",
+  "date": "2025-10-22",
+  "decision_timestamp": "2025-10-23 00:00:00",
+  "score": 0.8752636313438416,
+  "p_cal": 0.08795247485258742,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 300.0,
+   "hub_neighbour_share": 0.6000000238418579,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 8320.0,
+   "in_1d": 2448.89990234375,
+   "out_7d": 18611.640625,
+   "in_7d": 2498.27001953125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3048-20251023",
+  "dataset": "HI",
+  "account": "account_3048",
+  "date": "2025-10-23",
+  "decision_timestamp": "2025-10-24 00:00:00",
+  "score": 0.9781354665756226,
+  "p_cal": 0.3650001463005836,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 531.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2967.25,
+   "out_7d": 1849.6400146484375,
+   "in_7d": 3734.840087890625,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2453-20251023",
+  "dataset": "HI",
+  "account": "account_2453",
+  "date": "2025-10-23",
+  "decision_timestamp": "2025-10-24 00:00:00",
+  "score": 0.9716479778289795,
+  "p_cal": 0.3077767318831389,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 497.0,
+   "hub_neighbour_share": 0.2857142984867096,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 6884.00537109375,
+   "in_1d": 20.0,
+   "out_7d": 7811.6455078125,
+   "in_7d": 7111.31982421875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6684-20251023",
+  "dataset": "HI",
+  "account": "account_6684",
+  "date": "2025-10-23",
+  "decision_timestamp": "2025-10-24 00:00:00",
+  "score": 0.8938522934913635,
+  "p_cal": 0.10311022237565587,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 48.0,
+   "reach2_7d": 908.0,
+   "hub_neighbour_share": 0.3125,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 7.0,
+   "fanout_burst_3d": 6.0
+  },
+  "amounts": {
+   "out_1d": 4476.0,
+   "in_1d": 1042.31005859375,
+   "out_7d": 5391.97998046875,
+   "in_7d": 13762.072265625,
+   "n_tx_1d": 10.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5512-20251023",
+  "dataset": "HI",
+  "account": "account_5512",
+  "date": "2025-10-23",
+  "decision_timestamp": "2025-10-24 00:00:00",
+  "score": 0.8930796384811401,
+  "p_cal": 0.10238904557585038,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 41.0,
+   "reach2_7d": 704.0,
+   "hub_neighbour_share": 0.26829269528388977,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 2.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 8.0
+  },
+  "amounts": {
+   "out_1d": 5312.3798828125,
+   "in_1d": 566.4500122070312,
+   "out_7d": 15311.3603515625,
+   "in_7d": 5677.169921875,
+   "n_tx_1d": 10.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2742-20251023",
+  "dataset": "HI",
+  "account": "account_2742",
+  "date": "2025-10-23",
+  "decision_timestamp": "2025-10-24 00:00:00",
+  "score": 0.8438491225242615,
+  "p_cal": 0.06974713786568966,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 297.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 1968.1700439453125,
+   "in_1d": 0.0,
+   "out_7d": 6301.66015625,
+   "in_7d": 3155.14990234375,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5220-20251024",
+  "dataset": "HI",
+  "account": "account_5220",
+  "date": "2025-10-24",
+  "decision_timestamp": "2025-10-25 00:00:00",
+  "score": 0.9361293315887451,
+  "p_cal": 0.16395630812680473,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 333.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2382.889892578125,
+   "in_1d": 0.0,
+   "out_7d": 2492.5400390625,
+   "in_7d": 1754.699951171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4958-20251025",
+  "dataset": "HI",
+  "account": "account_4958",
+  "date": "2025-10-25",
+  "decision_timestamp": "2025-10-26 00:00:00",
+  "score": 0.9750499725341797,
+  "p_cal": 0.33537240527178686,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 308.0,
+   "hub_neighbour_share": 0.5714285969734192,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 1735.699951171875,
+   "in_1d": 1969.8299560546875,
+   "out_7d": 2408.330078125,
+   "in_7d": 1969.8299560546875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2217-20251025",
+  "dataset": "HI",
+  "account": "account_2217",
+  "date": "2025-10-25",
+  "decision_timestamp": "2025-10-26 00:00:00",
+  "score": 0.9601554274559021,
+  "p_cal": 0.2405024409049015,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 471.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 7.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 3085.260009765625,
+   "out_7d": 6546.56005859375,
+   "in_7d": 4909.97021484375,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3202-20251025",
+  "dataset": "HI",
+  "account": "account_3202",
+  "date": "2025-10-25",
+  "decision_timestamp": "2025-10-26 00:00:00",
+  "score": 0.9579043984413147,
+  "p_cal": 0.23056042929148488,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 624.0,
+   "hub_neighbour_share": 0.2571428716182709,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 1.0,
+    "c4": 10.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 6.0
+  },
+  "amounts": {
+   "out_1d": 7174.85986328125,
+   "in_1d": 2702.969970703125,
+   "out_7d": 10424.8701171875,
+   "in_7d": 4261.009765625,
+   "n_tx_1d": 9.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6897-20251026",
+  "dataset": "HI",
+  "account": "account_6897",
+  "date": "2025-10-26",
+  "decision_timestamp": "2025-10-27 00:00:00",
+  "score": 0.9665243625640869,
+  "p_cal": 0.2737430384362472,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 275.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 3898.139892578125,
+   "in_1d": 28.399999618530273,
+   "out_7d": 4599.330078125,
+   "in_7d": 5165.0,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6914-20251026",
+  "dataset": "HI",
+  "account": "account_6914",
+  "date": "2025-10-26",
+  "decision_timestamp": "2025-10-27 00:00:00",
+  "score": 0.9593557715415955,
+  "p_cal": 0.23687693016030487,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 184.0,
+   "reach2_7d": 1729.0,
+   "hub_neighbour_share": 0.16304348409175873,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 7.0,
+    "c4": 102.0
+   },
+   "fanin_burst_3d": 20.0,
+   "fanout_burst_3d": 13.0
+  },
+  "amounts": {
+   "out_1d": 20447.189453125,
+   "in_1d": 3880.320068359375,
+   "out_7d": 64465.62109375,
+   "in_7d": 16368.330078125,
+   "n_tx_1d": 31.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6328-20251027",
+  "dataset": "HI",
+  "account": "account_6328",
+  "date": "2025-10-27",
+  "decision_timestamp": "2025-10-28 00:00:00",
+  "score": 0.9646554589271545,
+  "p_cal": 0.2630973132409405,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 31.0,
+   "reach2_7d": 770.0,
+   "hub_neighbour_share": 0.3870967626571655,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 597.4199829101562,
+   "in_1d": 5310.33984375,
+   "out_7d": 2414.5,
+   "in_7d": 5835.169921875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6566-20251028",
+  "dataset": "HI",
+  "account": "account_6566",
+  "date": "2025-10-28",
+  "decision_timestamp": "2025-10-29 00:00:00",
+  "score": 0.849686324596405,
+  "p_cal": 0.07261330651975739,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 371.0,
+   "hub_neighbour_share": 0.5833333134651184,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 20.0,
+   "in_1d": 2257.199951171875,
+   "out_7d": 198.05999755859375,
+   "in_7d": 12119.6904296875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6018-20251029",
+  "dataset": "HI",
+  "account": "account_6018",
+  "date": "2025-10-29",
+  "decision_timestamp": "2025-10-30 00:00:00",
+  "score": 0.973604142665863,
+  "p_cal": 0.3230694471762772,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 557.0,
+   "hub_neighbour_share": 0.47826087474823,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 2.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 74.79000091552734,
+   "in_1d": 3168.699951171875,
+   "out_7d": 717.219970703125,
+   "in_7d": 5839.60986328125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2835-20251029",
+  "dataset": "HI",
+  "account": "account_2835",
+  "date": "2025-10-29",
+  "decision_timestamp": "2025-10-30 00:00:00",
+  "score": 0.9608277678489685,
+  "p_cal": 0.2436350836207727,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 261.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 2145.23779296875,
+   "in_1d": 2145.239990234375,
+   "out_7d": 2612.247802734375,
+   "in_7d": 2321.3701171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3835-20251030",
+  "dataset": "HI",
+  "account": "account_3835",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.9783014059066772,
+  "p_cal": 0.36674143750597515,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 29.0,
+   "reach2_7d": 718.0,
+   "hub_neighbour_share": 0.3448275923728943,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 5101.31005859375,
+   "in_1d": 5393.47021484375,
+   "out_7d": 22573.9609375,
+   "in_7d": 5812.5,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2871-20251030",
+  "dataset": "HI",
+  "account": "account_2871",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.9712667465209961,
+  "p_cal": 0.3049610965709268,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 660.0,
+   "hub_neighbour_share": 0.40740740299224854,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 19.68000030517578,
+   "in_1d": 2021.25,
+   "out_7d": 8280.7900390625,
+   "in_7d": 2548.429931640625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2690-20251030",
+  "dataset": "HI",
+  "account": "account_2690",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.9484180808067322,
+  "p_cal": 0.19614162492457382,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 472.0,
+   "hub_neighbour_share": 0.8181818127632141,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 13163.5595703125,
+   "in_1d": 5304.02978515625,
+   "out_7d": 13900.009765625,
+   "in_7d": 5324.009765625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4052-20251030",
+  "dataset": "HI",
+  "account": "account_4052",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.9358874559402466,
+  "p_cal": 0.1634235917268026,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 352.0,
+   "hub_neighbour_share": 1.0,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 70.9000015258789,
+   "in_1d": 2610.530029296875,
+   "out_7d": 443.8800048828125,
+   "in_7d": 2610.530029296875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2714-20251030",
+  "dataset": "HI",
+  "account": "account_2714",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.9007809162139893,
+  "p_cal": 0.1100094871563812,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 546.0,
+   "hub_neighbour_share": 0.3888888955116272,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 363.29998779296875,
+   "in_1d": 1939.3304443359375,
+   "out_7d": 8946.0,
+   "in_7d": 2123.180419921875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5850-20251030",
+  "dataset": "HI",
+  "account": "account_5850",
+  "date": "2025-10-30",
+  "decision_timestamp": "2025-10-31 00:00:00",
+  "score": 0.8380321264266968,
+  "p_cal": 0.06707629407803659,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 300.0,
+   "hub_neighbour_share": 0.5555555820465088,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8100.240234375,
+   "in_1d": 0.0,
+   "out_7d": 8351.5498046875,
+   "in_7d": 5198.33984375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4243-20251031",
+  "dataset": "HI",
+  "account": "account_4243",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.9821301698684692,
+  "p_cal": 0.4120793538001317,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 172.0,
+   "hub_neighbour_share": 0.8333333134651184,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 4807.31982421875,
+   "in_1d": 102.63999938964844,
+   "out_7d": 4987.3798828125,
+   "in_7d": 5274.8701171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3634-20251031",
+  "dataset": "HI",
+  "account": "account_3634",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.9689348340034485,
+  "p_cal": 0.28878393225422994,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 17.0,
+   "reach2_7d": 500.0,
+   "hub_neighbour_share": 0.3529411852359772,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2360.9873046875,
+   "in_1d": 2360.989990234375,
+   "out_7d": 8696.13671875,
+   "in_7d": 6671.7900390625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2860-20251031",
+  "dataset": "HI",
+  "account": "account_2860",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.9463328719139099,
+  "p_cal": 0.18986353011283208,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 57.0,
+   "reach2_7d": 838.0,
+   "hub_neighbour_share": 0.22807016968727112,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 10.0
+   },
+   "fanin_burst_3d": 8.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 17002.669921875,
+   "in_1d": 1258.25,
+   "out_7d": 18897.109375,
+   "in_7d": 7383.97021484375,
+   "n_tx_1d": 11.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5976-20251031",
+  "dataset": "HI",
+  "account": "account_5976",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.899436891078949,
+  "p_cal": 0.1086069987230102,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 461.0,
+   "hub_neighbour_share": 0.3636363744735718,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 10285.48046875,
+   "out_7d": 2631.3798828125,
+   "in_7d": 11473.16015625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2176-20251031",
+  "dataset": "HI",
+  "account": "account_2176",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.8602254390716553,
+  "p_cal": 0.07832757437834936,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 5.0,
+   "reach2_7d": 145.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 8203.4697265625,
+   "out_7d": 5100.7998046875,
+   "in_7d": 13195.4697265625,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3580-20251031",
+  "dataset": "HI",
+  "account": "account_3580",
+  "date": "2025-10-31",
+  "decision_timestamp": "2025-11-01 00:00:00",
+  "score": 0.8565164804458618,
+  "p_cal": 0.0762311246516682,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 546.0,
+   "hub_neighbour_share": 0.699999988079071,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 2639.139892578125,
+   "in_1d": 6.869999885559082,
+   "out_7d": 2938.93994140625,
+   "in_7d": 3206.43994140625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4641-20251101",
+  "dataset": "HI",
+  "account": "account_4641",
+  "date": "2025-11-01",
+  "decision_timestamp": "2025-11-02 00:00:00",
+  "score": 0.9643552899360657,
+  "p_cal": 0.2614624156065809,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 363.0,
+   "hub_neighbour_share": 0.4545454680919647,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 4722.0029296875,
+   "in_1d": 4673.60986328125,
+   "out_7d": 5475.22265625,
+   "in_7d": 4943.7998046875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3739-20251101",
+  "dataset": "HI",
+  "account": "account_3739",
+  "date": "2025-11-01",
+  "decision_timestamp": "2025-11-02 00:00:00",
+  "score": 0.9003702402114868,
+  "p_cal": 0.10957749607790274,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 339.0,
+   "hub_neighbour_share": 0.6000000238418579,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 5662.14013671875,
+   "out_7d": 358.32000732421875,
+   "in_7d": 5757.6201171875,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2132-20251102",
+  "dataset": "HI",
+  "account": "account_2132",
+  "date": "2025-11-02",
+  "decision_timestamp": "2025-11-03 00:00:00",
+  "score": 0.9856271147727966,
+  "p_cal": 0.4645369432224228,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 353.0,
+   "hub_neighbour_share": 0.22727273404598236,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2766.1201171875,
+   "out_7d": 673.8900146484375,
+   "in_7d": 4798.5,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4868-20251102",
+  "dataset": "HI",
+  "account": "account_4868",
+  "date": "2025-11-02",
+  "decision_timestamp": "2025-11-03 00:00:00",
+  "score": 0.9726401567459106,
+  "p_cal": 0.3153505257070681,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 506.0,
+   "hub_neighbour_share": 0.2916666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 5141.08984375,
+   "out_7d": 1023.6900024414062,
+   "in_7d": 5899.6298828125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3189-20251102",
+  "dataset": "HI",
+  "account": "account_3189",
+  "date": "2025-11-02",
+  "decision_timestamp": "2025-11-03 00:00:00",
+  "score": 0.846246063709259,
+  "p_cal": 0.07090044136279364,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 907.0,
+   "hub_neighbour_share": 0.48571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 6.0
+  },
+  "amounts": {
+   "out_1d": 2490.919921875,
+   "in_1d": 9055.509765625,
+   "out_7d": 18765.7109375,
+   "in_7d": 10937.9697265625,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6788-20251103",
+  "dataset": "HI",
+  "account": "account_6788",
+  "date": "2025-11-03",
+  "decision_timestamp": "2025-11-04 00:00:00",
+  "score": 0.9739372134208679,
+  "p_cal": 0.3258238983763364,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 490.0,
+   "hub_neighbour_share": 0.4285714328289032,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 708.760009765625,
+   "in_1d": 4982.830078125,
+   "out_7d": 1196.3599853515625,
+   "in_7d": 5738.6201171875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2095-20251103",
+  "dataset": "HI",
+  "account": "account_2095",
+  "date": "2025-11-03",
+  "decision_timestamp": "2025-11-04 00:00:00",
+  "score": 0.9715542793273926,
+  "p_cal": 0.30708002506800686,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 4.0,
+   "reach2_7d": 102.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 10249.2802734375,
+   "in_1d": 0.0,
+   "out_7d": 10529.2802734375,
+   "in_7d": 10536.9501953125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3094-20251103",
+  "dataset": "HI",
+  "account": "account_3094",
+  "date": "2025-11-03",
+  "decision_timestamp": "2025-11-04 00:00:00",
+  "score": 0.9669845104217529,
+  "p_cal": 0.27649452821349985,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 352.0,
+   "hub_neighbour_share": 0.22727273404598236,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 7327.990234375,
+   "in_1d": 0.0,
+   "out_7d": 8808.3203125,
+   "in_7d": 8070.91015625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4078-20251103",
+  "dataset": "HI",
+  "account": "account_4078",
+  "date": "2025-11-03",
+  "decision_timestamp": "2025-11-04 00:00:00",
+  "score": 0.9346182346343994,
+  "p_cal": 0.16068077580549786,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 707.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 7108.1201171875,
+   "in_1d": 7247.3701171875,
+   "out_7d": 12278.41015625,
+   "in_7d": 8371.8896484375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2658-20251103",
+  "dataset": "HI",
+  "account": "account_2658",
+  "date": "2025-11-03",
+  "decision_timestamp": "2025-11-04 00:00:00",
+  "score": 0.8397201895713806,
+  "p_cal": 0.06783337760064732,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 435.0,
+   "hub_neighbour_share": 0.875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 9599.6103515625,
+   "in_1d": 21.649999618530273,
+   "out_7d": 9772.8798828125,
+   "in_7d": 9735.330078125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6329-20251104",
+  "dataset": "HI",
+  "account": "account_6329",
+  "date": "2025-11-04",
+  "decision_timestamp": "2025-11-05 00:00:00",
+  "score": 0.9659725427627563,
+  "p_cal": 0.2705131905645669,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 20.0,
+   "reach2_7d": 551.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 8488.9599609375,
+   "in_1d": 5577.2998046875,
+   "out_7d": 8961.1904296875,
+   "in_7d": 5882.8701171875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6346-20251105",
+  "dataset": "HI",
+  "account": "account_6346",
+  "date": "2025-11-05",
+  "decision_timestamp": "2025-11-06 00:00:00",
+  "score": 0.8938073515892029,
+  "p_cal": 0.10306803213902349,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 15.0,
+   "reach2_7d": 550.0,
+   "hub_neighbour_share": 0.800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 2501.219970703125,
+   "in_1d": 2557.110107421875,
+   "out_7d": 4847.9501953125,
+   "in_7d": 2726.489990234375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4434-20251105",
+  "dataset": "HI",
+  "account": "account_4434",
+  "date": "2025-11-05",
+  "decision_timestamp": "2025-11-06 00:00:00",
+  "score": 0.8613318800926208,
+  "p_cal": 0.07897232009118935,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 138.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 7656.35986328125,
+   "in_1d": 0.0,
+   "out_7d": 35575.19140625,
+   "in_7d": 9289.6201171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5461-20251106",
+  "dataset": "HI",
+  "account": "account_5461",
+  "date": "2025-11-06",
+  "decision_timestamp": "2025-11-07 00:00:00",
+  "score": 0.935468852519989,
+  "p_cal": 0.16250928535045353,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 488.0,
+   "hub_neighbour_share": 0.7272727489471436,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2038.9200439453125,
+   "in_1d": 2550.919921875,
+   "out_7d": 2980.8701171875,
+   "in_7d": 2739.81005859375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6016-20251106",
+  "dataset": "HI",
+  "account": "account_6016",
+  "date": "2025-11-06",
+  "decision_timestamp": "2025-11-07 00:00:00",
+  "score": 0.8534488081932068,
+  "p_cal": 0.07456891034754573,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 397.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 7615.33984375,
+   "in_1d": 0.0,
+   "out_7d": 9290.2099609375,
+   "in_7d": 7633.18994140625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2349-20251107",
+  "dataset": "HI",
+  "account": "account_2349",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9649434089660645,
+  "p_cal": 0.26468452390581726,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 344.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 7381.85986328125,
+   "in_1d": 0.0,
+   "out_7d": 7720.47998046875,
+   "in_7d": 7689.68994140625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5512-20251107",
+  "dataset": "HI",
+  "account": "account_5512",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9643001556396484,
+  "p_cal": 0.2611642957548741,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 39.0,
+   "reach2_7d": 971.0,
+   "hub_neighbour_share": 0.3589743673801422,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 6224.08984375,
+   "out_7d": 1460.6700439453125,
+   "in_7d": 8236.490234375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5014-20251107",
+  "dataset": "HI",
+  "account": "account_5014",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9638556241989136,
+  "p_cal": 0.25878448440474067,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 705.0,
+   "hub_neighbour_share": 0.30000001192092896,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 11685.986328125,
+   "in_1d": 107.63999938964844,
+   "out_7d": 23210.505859375,
+   "in_7d": 13217.9404296875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3258-20251107",
+  "dataset": "HI",
+  "account": "account_3258",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9633944034576416,
+  "p_cal": 0.2563596529756531,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 32.0,
+   "reach2_7d": 665.0,
+   "hub_neighbour_share": 0.3125,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 1347.75,
+   "in_1d": 4758.419921875,
+   "out_7d": 2229.989990234375,
+   "in_7d": 5807.91015625,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4770-20251107",
+  "dataset": "HI",
+  "account": "account_4770",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9412071108818054,
+  "p_cal": 0.17594909367150297,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 834.0,
+   "hub_neighbour_share": 0.2857142984867096,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 2.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 11485.3798828125,
+   "out_7d": 1837.9200439453125,
+   "in_7d": 13580.400390625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2468-20251107",
+  "dataset": "HI",
+  "account": "account_2468",
+  "date": "2025-11-07",
+  "decision_timestamp": "2025-11-08 00:00:00",
+  "score": 0.9344196915626526,
+  "p_cal": 0.160259569260563,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 111.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 11444.3798828125,
+   "in_1d": 0.0,
+   "out_7d": 15444.3798828125,
+   "in_7d": 12322.7099609375,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2985-20251108",
+  "dataset": "HI",
+  "account": "account_2985",
+  "date": "2025-11-08",
+  "decision_timestamp": "2025-11-09 00:00:00",
+  "score": 0.9217947721481323,
+  "p_cal": 0.13716101722750598,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 430.0,
+   "hub_neighbour_share": 0.800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 4761.10009765625,
+   "in_1d": 5.75,
+   "out_7d": 7032.509765625,
+   "in_7d": 5115.08984375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5968-20251109",
+  "dataset": "HI",
+  "account": "account_5968",
+  "date": "2025-11-09",
+  "decision_timestamp": "2025-11-10 00:00:00",
+  "score": 0.9699822068214417,
+  "p_cal": 0.2958361469485005,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 290.0,
+   "hub_neighbour_share": 0.7142857313156128,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 14321.5498046875,
+   "in_1d": 12956.8203125,
+   "out_7d": 14537.0302734375,
+   "in_7d": 12962.2900390625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5859-20251109",
+  "dataset": "HI",
+  "account": "account_5859",
+  "date": "2025-11-09",
+  "decision_timestamp": "2025-11-10 00:00:00",
+  "score": 0.9695882201194763,
+  "p_cal": 0.2931440042558963,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 249.0,
+   "hub_neighbour_share": 0.375,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 13166.8203125,
+   "in_1d": 0.0,
+   "out_7d": 13684.8701171875,
+   "in_7d": 13271.4697265625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4627-20251109",
+  "dataset": "HI",
+  "account": "account_4627",
+  "date": "2025-11-09",
+  "decision_timestamp": "2025-11-10 00:00:00",
+  "score": 0.836448073387146,
+  "p_cal": 0.06637867702369003,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 870.0,
+   "hub_neighbour_share": 0.5185185074806213,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 399.1099853515625,
+   "in_1d": 7457.25,
+   "out_7d": 1405.6099853515625,
+   "in_7d": 8577.01953125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2558-20251110",
+  "dataset": "HI",
+  "account": "account_2558",
+  "date": "2025-11-10",
+  "decision_timestamp": "2025-11-11 00:00:00",
+  "score": 0.875364363193512,
+  "p_cal": 0.08802385452425289,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 16.0,
+   "reach2_7d": 768.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2421.159912109375,
+   "in_1d": 41.68000030517578,
+   "out_7d": 3894.06005859375,
+   "in_7d": 4004.97998046875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3902-20251111",
+  "dataset": "HI",
+  "account": "account_3902",
+  "date": "2025-11-11",
+  "decision_timestamp": "2025-11-12 00:00:00",
+  "score": 0.9825875759124756,
+  "p_cal": 0.41825544534555903,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 236.0,
+   "hub_neighbour_share": 0.4444444477558136,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 11094.490234375,
+   "in_1d": 12058.33984375,
+   "out_7d": 11340.51953125,
+   "in_7d": 12293.3701171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5834-20251112",
+  "dataset": "HI",
+  "account": "account_5834",
+  "date": "2025-11-12",
+  "decision_timestamp": "2025-11-13 00:00:00",
+  "score": 0.9882723093032837,
+  "p_cal": 0.5141198722867955,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 300.0,
+   "hub_neighbour_share": 0.625,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 10676.849609375,
+   "in_1d": 10833.0595703125,
+   "out_7d": 14720.330078125,
+   "in_7d": 11013.83984375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3252-20251112",
+  "dataset": "HI",
+  "account": "account_3252",
+  "date": "2025-11-12",
+  "decision_timestamp": "2025-11-13 00:00:00",
+  "score": 0.969982922077179,
+  "p_cal": 0.295841076811596,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 670.0,
+   "hub_neighbour_share": 0.3571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 2868.2099609375,
+   "in_1d": 4302.06982421875,
+   "out_7d": 3681.449951171875,
+   "in_7d": 5066.31005859375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6278-20251112",
+  "dataset": "HI",
+  "account": "account_6278",
+  "date": "2025-11-12",
+  "decision_timestamp": "2025-11-13 00:00:00",
+  "score": 0.9682841897010803,
+  "p_cal": 0.28456681773714326,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 19.0,
+   "reach2_7d": 508.0,
+   "hub_neighbour_share": 0.3684210479259491,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 4633.9501953125,
+   "in_1d": 6.150000095367432,
+   "out_7d": 5228.02001953125,
+   "in_7d": 5502.509765625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4523-20251112",
+  "dataset": "HI",
+  "account": "account_4523",
+  "date": "2025-11-12",
+  "decision_timestamp": "2025-11-13 00:00:00",
+  "score": 0.9580267667770386,
+  "p_cal": 0.2310803609714447,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 421.0,
+   "hub_neighbour_share": 0.5384615659713745,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 10855.3203125,
+   "in_1d": 180.0,
+   "out_7d": 11253.419921875,
+   "in_7d": 11298.9296875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5288-20251113",
+  "dataset": "HI",
+  "account": "account_5288",
+  "date": "2025-11-13",
+  "decision_timestamp": "2025-11-14 00:00:00",
+  "score": 0.9836617708206177,
+  "p_cal": 0.43351528717042137,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 63.0,
+   "reach2_7d": 1184.0,
+   "hub_neighbour_share": 0.2539682686328888,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 4.0,
+    "c4": 16.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 7.0
+  },
+  "amounts": {
+   "out_1d": 10753.0244140625,
+   "in_1d": 10372.7099609375,
+   "out_7d": 21529.435546875,
+   "in_7d": 12075.0498046875,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6411-20251113",
+  "dataset": "HI",
+  "account": "account_6411",
+  "date": "2025-11-13",
+  "decision_timestamp": "2025-11-14 00:00:00",
+  "score": 0.9704641103744507,
+  "p_cal": 0.299195753623012,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 16.0,
+   "reach2_7d": 477.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 4760.72998046875,
+   "in_1d": 0.0,
+   "out_7d": 6984.18017578125,
+   "in_7d": 6034.080078125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4415-20251113",
+  "dataset": "HI",
+  "account": "account_4415",
+  "date": "2025-11-13",
+  "decision_timestamp": "2025-11-14 00:00:00",
+  "score": 0.8891511559486389,
+  "p_cal": 0.09885803728668734,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 5.0,
+   "reach2_7d": 278.0,
+   "hub_neighbour_share": 0.6000000238418579,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 0.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 1918.8900146484375,
+   "out_7d": 288.82000732421875,
+   "in_7d": 2162.580078125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4666-20251113",
+  "dataset": "HI",
+  "account": "account_4666",
+  "date": "2025-11-13",
+  "decision_timestamp": "2025-11-14 00:00:00",
+  "score": 0.8573533892631531,
+  "p_cal": 0.07669567065305583,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 17.0,
+   "reach2_7d": 576.0,
+   "hub_neighbour_share": 0.6470588445663452,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8943.1904296875,
+   "in_1d": 427.4100036621094,
+   "out_7d": 18557.880859375,
+   "in_7d": 1843.280029296875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2212-20251113",
+  "dataset": "HI",
+  "account": "account_2212",
+  "date": "2025-11-13",
+  "decision_timestamp": "2025-11-14 00:00:00",
+  "score": 0.8343148827552795,
+  "p_cal": 0.06545826286709278,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 513.0,
+   "hub_neighbour_share": 0.3636363744735718,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 135.9199981689453,
+   "in_1d": 1627.260009765625,
+   "out_7d": 6636.27978515625,
+   "in_7d": 3163.199951171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6788-20251114",
+  "dataset": "HI",
+  "account": "account_6788",
+  "date": "2025-11-14",
+  "decision_timestamp": "2025-11-15 00:00:00",
+  "score": 0.9711042642593384,
+  "p_cal": 0.30377641461119786,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 431.0,
+   "hub_neighbour_share": 0.190476194024086,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 7039.599609375,
+   "in_1d": 7018.330078125,
+   "out_7d": 18561.400390625,
+   "in_7d": 8668.58984375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6596-20251114",
+  "dataset": "HI",
+  "account": "account_6596",
+  "date": "2025-11-14",
+  "decision_timestamp": "2025-11-15 00:00:00",
+  "score": 0.8678131103515625,
+  "p_cal": 0.0829411306495076,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 437.0,
+   "hub_neighbour_share": 0.5833333134651184,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 11428.25,
+   "out_7d": 1086.81005859375,
+   "in_7d": 15401.8896484375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6244-20251114",
+  "dataset": "HI",
+  "account": "account_6244",
+  "date": "2025-11-14",
+  "decision_timestamp": "2025-11-15 00:00:00",
+  "score": 0.8437163829803467,
+  "p_cal": 0.06968420331204131,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 250.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 720.0,
+   "in_1d": 1040.8699951171875,
+   "out_7d": 2394.090087890625,
+   "in_7d": 1040.8699951171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4972-20251115",
+  "dataset": "HI",
+  "account": "account_4972",
+  "date": "2025-11-15",
+  "decision_timestamp": "2025-11-16 00:00:00",
+  "score": 0.9739322662353516,
+  "p_cal": 0.32578266634644265,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 302.0,
+   "hub_neighbour_share": 0.7142857313156128,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 4468.7119140625,
+   "in_1d": 4506.06982421875,
+   "out_7d": 4609.65185546875,
+   "in_7d": 4506.06982421875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4550-20251115",
+  "dataset": "HI",
+  "account": "account_4550",
+  "date": "2025-11-15",
+  "decision_timestamp": "2025-11-16 00:00:00",
+  "score": 0.9220933318138123,
+  "p_cal": 0.13763486093201135,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 43.0,
+   "reach2_7d": 991.0,
+   "hub_neighbour_share": 0.4883720874786377,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 5.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 1907.2900390625,
+   "in_1d": 280.95001220703125,
+   "out_7d": 3317.080078125,
+   "in_7d": 2369.530029296875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2081-20251115",
+  "dataset": "HI",
+  "account": "account_2081",
+  "date": "2025-11-15",
+  "decision_timestamp": "2025-11-16 00:00:00",
+  "score": 0.9112680554389954,
+  "p_cal": 0.1221917073684974,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 722.0,
+   "hub_neighbour_share": 0.6086956262588501,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 8.0
+  },
+  "amounts": {
+   "out_1d": 11313.099609375,
+   "in_1d": 0.0,
+   "out_7d": 12576.759765625,
+   "in_7d": 10349.7998046875,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3576-20251116",
+  "dataset": "HI",
+  "account": "account_3576",
+  "date": "2025-11-16",
+  "decision_timestamp": "2025-11-17 00:00:00",
+  "score": 0.9664950370788574,
+  "p_cal": 0.27356949757462545,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 443.0,
+   "hub_neighbour_share": 0.5833333134651184,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 14188.759765625,
+   "in_1d": 0.0,
+   "out_7d": 15101.0595703125,
+   "in_7d": 14564.26953125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6670-20251116",
+  "dataset": "HI",
+  "account": "account_6670",
+  "date": "2025-11-16",
+  "decision_timestamp": "2025-11-17 00:00:00",
+  "score": 0.9637618064880371,
+  "p_cal": 0.25828762990854603,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 53.0,
+   "reach2_7d": 925.0,
+   "hub_neighbour_share": 0.35849055647850037,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 12.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 8.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 8762.9150390625,
+   "out_7d": 2455.570068359375,
+   "in_7d": 23284.994140625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4202-20251116",
+  "dataset": "HI",
+  "account": "account_4202",
+  "date": "2025-11-16",
+  "decision_timestamp": "2025-11-17 00:00:00",
+  "score": 0.9290084838867188,
+  "p_cal": 0.1495290215836773,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 629.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 922.030029296875,
+   "out_7d": 802.7999877929688,
+   "in_7d": 4582.8701171875,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2486-20251116",
+  "dataset": "HI",
+  "account": "account_2486",
+  "date": "2025-11-16",
+  "decision_timestamp": "2025-11-17 00:00:00",
+  "score": 0.8666314482688904,
+  "p_cal": 0.08219202312166982,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 430.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8288.259765625,
+   "in_1d": 6510.0,
+   "out_7d": 9805.4501953125,
+   "in_7d": 6510.0,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2869-20251117",
+  "dataset": "HI",
+  "account": "account_2869",
+  "date": "2025-11-17",
+  "decision_timestamp": "2025-11-18 00:00:00",
+  "score": 0.9714058041572571,
+  "p_cal": 0.3059822581665128,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 218.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 11797.9697265625,
+   "in_1d": 0.0,
+   "out_7d": 12064.5,
+   "in_7d": 12374.330078125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6607-20251118",
+  "dataset": "HI",
+  "account": "account_6607",
+  "date": "2025-11-18",
+  "decision_timestamp": "2025-11-19 00:00:00",
+  "score": 0.9718446135520935,
+  "p_cal": 0.30924913699317647,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 286.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 12827.73046875,
+   "in_1d": 0.0,
+   "out_7d": 12906.0,
+   "in_7d": 13185.9501953125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4553-20251118",
+  "dataset": "HI",
+  "account": "account_4553",
+  "date": "2025-11-18",
+  "decision_timestamp": "2025-11-19 00:00:00",
+  "score": 0.9681833982467651,
+  "p_cal": 0.28392436476028293,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 16.0,
+   "reach2_7d": 679.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 12571.400390625,
+   "in_1d": 2960.1298828125,
+   "out_7d": 15279.01953125,
+   "in_7d": 3131.449951171875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4930-20251118",
+  "dataset": "HI",
+  "account": "account_4930",
+  "date": "2025-11-18",
+  "decision_timestamp": "2025-11-19 00:00:00",
+  "score": 0.9667387008666992,
+  "p_cal": 0.2750180094710883,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 335.0,
+   "hub_neighbour_share": 0.8888888955116272,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 6111.41259765625,
+   "in_1d": 6111.41015625,
+   "out_7d": 6772.87255859375,
+   "in_7d": 6527.5,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4031-20251118",
+  "dataset": "HI",
+  "account": "account_4031",
+  "date": "2025-11-18",
+  "decision_timestamp": "2025-11-19 00:00:00",
+  "score": 0.9294917583465576,
+  "p_cal": 0.15043211983455004,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 592.0,
+   "hub_neighbour_share": 0.4545454680919647,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 308.0199890136719,
+   "in_1d": 4644.759765625,
+   "out_7d": 1430.93994140625,
+   "in_7d": 5860.6201171875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2574-20251119",
+  "dataset": "HI",
+  "account": "account_2574",
+  "date": "2025-11-19",
+  "decision_timestamp": "2025-11-20 00:00:00",
+  "score": 0.9657753705978394,
+  "p_cal": 0.2693771292533933,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 716.0,
+   "hub_neighbour_share": 0.3142857253551483,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 8.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 123.33000183105469,
+   "in_1d": 3077.330078125,
+   "out_7d": 4500.47998046875,
+   "in_7d": 5508.56005859375,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6279-20251119",
+  "dataset": "HI",
+  "account": "account_6279",
+  "date": "2025-11-19",
+  "decision_timestamp": "2025-11-20 00:00:00",
+  "score": 0.9487924575805664,
+  "p_cal": 0.1973110146963419,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 52.0,
+   "reach2_7d": 1110.0,
+   "hub_neighbour_share": 0.3461538553237915,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 1.0,
+    "c4": 24.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 279.92999267578125,
+   "in_1d": 13086.830078125,
+   "out_7d": 2564.590087890625,
+   "in_7d": 14832.2900390625,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6746-20251119",
+  "dataset": "HI",
+  "account": "account_6746",
+  "date": "2025-11-19",
+  "decision_timestamp": "2025-11-20 00:00:00",
+  "score": 0.9323484897613525,
+  "p_cal": 0.15598621551845296,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 40.0,
+   "reach2_7d": 824.0,
+   "hub_neighbour_share": 0.3499999940395355,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 15.0
+   },
+   "fanin_burst_3d": 7.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 5035.5,
+   "in_1d": 65.0999984741211,
+   "out_7d": 6937.16015625,
+   "in_7d": 7115.97021484375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3089-20251119",
+  "dataset": "HI",
+  "account": "account_3089",
+  "date": "2025-11-19",
+  "decision_timestamp": "2025-11-20 00:00:00",
+  "score": 0.895007312297821,
+  "p_cal": 0.10420546691538149,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 702.0,
+   "hub_neighbour_share": 0.7692307829856873,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 1108.0,
+   "in_1d": 1649.239990234375,
+   "out_7d": 11064.66015625,
+   "in_7d": 1675.239990234375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5024-20251120",
+  "dataset": "HI",
+  "account": "account_5024",
+  "date": "2025-11-20",
+  "decision_timestamp": "2025-11-21 00:00:00",
+  "score": 0.888536810874939,
+  "p_cal": 0.09832551301448363,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 34.0,
+   "reach2_7d": 1051.0,
+   "hub_neighbour_share": 0.47058823704719543,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 181.66000366210938,
+   "in_1d": 2894.280029296875,
+   "out_7d": 3340.929931640625,
+   "in_7d": 4207.22021484375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6359-20251120",
+  "dataset": "HI",
+  "account": "account_6359",
+  "date": "2025-11-20",
+  "decision_timestamp": "2025-11-21 00:00:00",
+  "score": 0.8756886720657349,
+  "p_cal": 0.08825433508839489,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 601.0,
+   "hub_neighbour_share": 0.38461539149284363,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 6529.40380859375,
+   "in_1d": 123.69000244140625,
+   "out_7d": 8631.603515625,
+   "in_7d": 7693.60986328125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5529-20251120",
+  "dataset": "HI",
+  "account": "account_5529",
+  "date": "2025-11-20",
+  "decision_timestamp": "2025-11-21 00:00:00",
+  "score": 0.8417924046516418,
+  "p_cal": 0.06878261853432553,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 520.0,
+   "hub_neighbour_share": 0.3888888955116272,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 119.05999755859375,
+   "in_1d": 1313.5699462890625,
+   "out_7d": 1141.6600341796875,
+   "in_7d": 1664.1199951171875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4198-20251122",
+  "dataset": "HI",
+  "account": "account_4198",
+  "date": "2025-11-22",
+  "decision_timestamp": "2025-11-23 00:00:00",
+  "score": 0.9732058048248291,
+  "p_cal": 0.3198350976357993,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 33.0,
+   "reach2_7d": 514.0,
+   "hub_neighbour_share": 0.1818181872367859,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 300.3900146484375,
+   "in_1d": 5978.52001953125,
+   "out_7d": 936.6599731445312,
+   "in_7d": 7266.5,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5290-20251122",
+  "dataset": "HI",
+  "account": "account_5290",
+  "date": "2025-11-22",
+  "decision_timestamp": "2025-11-23 00:00:00",
+  "score": 0.9684889316558838,
+  "p_cal": 0.2858807536013322,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 33.0,
+   "reach2_7d": 476.0,
+   "hub_neighbour_share": 0.27272728085517883,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 180.0,
+   "in_1d": 9669.3203125,
+   "out_7d": 1070.1099853515625,
+   "in_7d": 10718.5703125,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2471-20251122",
+  "dataset": "HI",
+  "account": "account_2471",
+  "date": "2025-11-22",
+  "decision_timestamp": "2025-11-23 00:00:00",
+  "score": 0.966667890548706,
+  "p_cal": 0.27459552359845835,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 591.0,
+   "hub_neighbour_share": 0.38461539149284363,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 4864.68603515625,
+   "in_1d": 3.259999990463257,
+   "out_7d": 7860.095703125,
+   "in_7d": 5558.3798828125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6057-20251122",
+  "dataset": "HI",
+  "account": "account_6057",
+  "date": "2025-11-22",
+  "decision_timestamp": "2025-11-23 00:00:00",
+  "score": 0.9523850083351135,
+  "p_cal": 0.20925083532790084,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 897.0,
+   "hub_neighbour_share": 0.34285715222358704,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8068.52001953125,
+   "in_1d": 81.69000244140625,
+   "out_7d": 9935.9501953125,
+   "in_7d": 10831.33984375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5881-20251123",
+  "dataset": "HI",
+  "account": "account_5881",
+  "date": "2025-11-23",
+  "decision_timestamp": "2025-11-24 00:00:00",
+  "score": 0.987023651599884,
+  "p_cal": 0.48944551433471734,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 784.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 5315.9599609375,
+   "in_1d": 5485.02978515625,
+   "out_7d": 6722.77978515625,
+   "in_7d": 6348.7099609375,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3793-20251123",
+  "dataset": "HI",
+  "account": "account_3793",
+  "date": "2025-11-23",
+  "decision_timestamp": "2025-11-24 00:00:00",
+  "score": 0.9640886783599854,
+  "p_cal": 0.2600268415226454,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 31.0,
+   "reach2_7d": 732.0,
+   "hub_neighbour_share": 0.4193548262119293,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 960.5700073242188,
+   "in_1d": 2253.25,
+   "out_7d": 4268.330078125,
+   "in_7d": 2849.800048828125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2776-20251123",
+  "dataset": "HI",
+  "account": "account_2776",
+  "date": "2025-11-23",
+  "decision_timestamp": "2025-11-24 00:00:00",
+  "score": 0.9357326030731201,
+  "p_cal": 0.16308422136002998,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 618.0,
+   "hub_neighbour_share": 0.43478259444236755,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 7114.5498046875,
+   "in_1d": 661.3099975585938,
+   "out_7d": 7976.91015625,
+   "in_7d": 9051.103515625,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6914-20251124",
+  "dataset": "HI",
+  "account": "account_6914",
+  "date": "2025-11-24",
+  "decision_timestamp": "2025-11-25 00:00:00",
+  "score": 0.95701664686203,
+  "p_cal": 0.22685517142820227,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 163.0,
+   "reach2_7d": 1606.0,
+   "hub_neighbour_share": 0.16564416885375977,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 5.0,
+    "c4": 66.0
+   },
+   "fanin_burst_3d": 16.0,
+   "fanout_burst_3d": 11.0
+  },
+  "amounts": {
+   "out_1d": 13344.8798828125,
+   "in_1d": 2629.43994140625,
+   "out_7d": 53330.6796875,
+   "in_7d": 10478.7998046875,
+   "n_tx_1d": 27.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4679-20251124",
+  "dataset": "HI",
+  "account": "account_4679",
+  "date": "2025-11-24",
+  "decision_timestamp": "2025-11-25 00:00:00",
+  "score": 0.9160019159317017,
+  "p_cal": 0.1285310766022212,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 595.0,
+   "hub_neighbour_share": 0.22857142984867096,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 2.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 10979.3701171875,
+   "in_1d": 140.67999267578125,
+   "out_7d": 13555.98046875,
+   "in_7d": 4005.56005859375,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6357-20251125",
+  "dataset": "HI",
+  "account": "account_6357",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.9703858494758606,
+  "p_cal": 0.2986450657761352,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 636.0,
+   "hub_neighbour_share": 0.3461538553237915,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8057.8701171875,
+   "in_1d": 8399.9404296875,
+   "out_7d": 8599.419921875,
+   "in_7d": 10002.5498046875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6549-20251125",
+  "dataset": "HI",
+  "account": "account_6549",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.9662533402442932,
+  "p_cal": 0.27214736853868604,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 571.0,
+   "hub_neighbour_share": 0.40740740299224854,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 14.520000457763672,
+   "in_1d": 3218.080078125,
+   "out_7d": 1726.9300537109375,
+   "in_7d": 4028.64990234375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4812-20251125",
+  "dataset": "HI",
+  "account": "account_4812",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.9600375890731812,
+  "p_cal": 0.23996147245320426,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 614.0,
+   "hub_neighbour_share": 0.38461539149284363,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 7.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 458.4599914550781,
+   "in_1d": 1267.199951171875,
+   "out_7d": 1773.0699462890625,
+   "in_7d": 2032.719970703125,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5973-20251125",
+  "dataset": "HI",
+  "account": "account_5973",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.9537356495857239,
+  "p_cal": 0.21410598619161947,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 19.0,
+   "reach2_7d": 632.0,
+   "hub_neighbour_share": 0.4736842215061188,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 3664.60009765625,
+   "in_1d": 0.0,
+   "out_7d": 5407.22021484375,
+   "in_7d": 6291.1298828125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5502-20251125",
+  "dataset": "HI",
+  "account": "account_5502",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.921461284160614,
+  "p_cal": 0.13663527887806518,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 403.0,
+   "hub_neighbour_share": 0.3888888955116272,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 1994.8599853515625,
+   "out_7d": 2882.010009765625,
+   "in_7d": 2642.889892578125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5401-20251125",
+  "dataset": "HI",
+  "account": "account_5401",
+  "date": "2025-11-25",
+  "decision_timestamp": "2025-11-26 00:00:00",
+  "score": 0.8364649415016174,
+  "p_cal": 0.06638604592381764,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 379.0,
+   "hub_neighbour_share": 0.5714285969734192,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 12109.9296875,
+   "out_7d": 7221.68017578125,
+   "in_7d": 12279.01953125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5139-20251126",
+  "dataset": "HI",
+  "account": "account_5139",
+  "date": "2025-11-26",
+  "decision_timestamp": "2025-11-27 00:00:00",
+  "score": 0.9039711356163025,
+  "p_cal": 0.1134733870981998,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 349.0,
+   "hub_neighbour_share": 0.8571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 76.83000183105469,
+   "in_1d": 1873.6800537109375,
+   "out_7d": 284.9599914550781,
+   "in_7d": 1877.949951171875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5815-20251126",
+  "dataset": "HI",
+  "account": "account_5815",
+  "date": "2025-11-26",
+  "decision_timestamp": "2025-11-27 00:00:00",
+  "score": 0.8541510105133057,
+  "p_cal": 0.07494387829727127,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 259.0,
+   "hub_neighbour_share": 0.4444444477558136,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 39.47999954223633,
+   "in_1d": 2252.639892578125,
+   "out_7d": 293.7200012207031,
+   "in_7d": 2669.6201171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5771-20251127",
+  "dataset": "HI",
+  "account": "account_5771",
+  "date": "2025-11-27",
+  "decision_timestamp": "2025-11-28 00:00:00",
+  "score": 0.960048496723175,
+  "p_cal": 0.24001142468307282,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 810.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 7.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2068.419921875,
+   "out_7d": 8548.48046875,
+   "in_7d": 3248.159912109375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3886-20251127",
+  "dataset": "HI",
+  "account": "account_3886",
+  "date": "2025-11-27",
+  "decision_timestamp": "2025-11-28 00:00:00",
+  "score": 0.8348603844642639,
+  "p_cal": 0.06569159076742832,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 582.0,
+   "hub_neighbour_share": 0.8999999761581421,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2279.570068359375,
+   "out_7d": 909.2999877929688,
+   "in_7d": 2592.050048828125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6714-20251127",
+  "dataset": "HI",
+  "account": "account_6714",
+  "date": "2025-11-27",
+  "decision_timestamp": "2025-11-28 00:00:00",
+  "score": 0.803374707698822,
+  "p_cal": 0.05416404084558819,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 15.0,
+   "reach2_7d": 289.0,
+   "hub_neighbour_share": 0.5333333611488342,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 1190.719970703125,
+   "out_7d": 566.8099975585938,
+   "in_7d": 1774.8199462890625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2826-20251128",
+  "dataset": "HI",
+  "account": "account_2826",
+  "date": "2025-11-28",
+  "decision_timestamp": "2025-11-29 00:00:00",
+  "score": 0.956467866897583,
+  "p_cal": 0.22462180084787453,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 699.0,
+   "hub_neighbour_share": 0.3214285671710968,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 340.0,
+   "in_1d": 5604.2998046875,
+   "out_7d": 2992.93994140625,
+   "in_7d": 5990.0400390625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4859-20251128",
+  "dataset": "HI",
+  "account": "account_4859",
+  "date": "2025-11-28",
+  "decision_timestamp": "2025-11-29 00:00:00",
+  "score": 0.9513569474220276,
+  "p_cal": 0.20569495538841248,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 559.0,
+   "hub_neighbour_share": 0.36000001430511475,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 116.25,
+   "in_1d": 2260.260009765625,
+   "out_7d": 2273.919921875,
+   "in_7d": 2780.9599609375,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6357-20251128",
+  "dataset": "HI",
+  "account": "account_6357",
+  "date": "2025-11-28",
+  "decision_timestamp": "2025-11-29 00:00:00",
+  "score": 0.9437999725341797,
+  "p_cal": 0.1827357643141787,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 556.0,
+   "hub_neighbour_share": 0.3478260934352875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 2.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 888.2100219726562,
+   "in_1d": 4140.7900390625,
+   "out_7d": 9116.830078125,
+   "in_7d": 14658.1298828125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4941-20251128",
+  "dataset": "HI",
+  "account": "account_4941",
+  "date": "2025-11-28",
+  "decision_timestamp": "2025-11-29 00:00:00",
+  "score": 0.872698187828064,
+  "p_cal": 0.08616838668878456,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 835.0,
+   "hub_neighbour_share": 0.22857142984867096,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 1907.97998046875,
+   "in_1d": 392.0400085449219,
+   "out_7d": 4051.14990234375,
+   "in_7d": 1951.1199951171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2470-20251130",
+  "dataset": "HI",
+  "account": "account_2470",
+  "date": "2025-11-30",
+  "decision_timestamp": "2025-12-01 00:00:00",
+  "score": 0.9734706878662109,
+  "p_cal": 0.3219786951543409,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 430.0,
+   "hub_neighbour_share": 0.2380952388048172,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 1782.4300537109375,
+   "out_7d": 2292.929931640625,
+   "in_7d": 2931.4599609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2826-20251130",
+  "dataset": "HI",
+  "account": "account_2826",
+  "date": "2025-11-30",
+  "decision_timestamp": "2025-12-01 00:00:00",
+  "score": 0.9542669057846069,
+  "p_cal": 0.216075617723351,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 778.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 11.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2016.3800048828125,
+   "out_7d": 2864.219970703125,
+   "in_7d": 7927.91015625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2996-20251201",
+  "dataset": "HI",
+  "account": "account_2996",
+  "date": "2025-12-01",
+  "decision_timestamp": "2025-12-02 00:00:00",
+  "score": 0.970954418182373,
+  "p_cal": 0.30269184553006323,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 424.0,
+   "hub_neighbour_share": 0.20000000298023224,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 3550.010009765625,
+   "out_7d": 455.6099853515625,
+   "in_7d": 4019.419921875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5980-20251201",
+  "dataset": "HI",
+  "account": "account_5980",
+  "date": "2025-12-01",
+  "decision_timestamp": "2025-12-02 00:00:00",
+  "score": 0.9621191024780273,
+  "p_cal": 0.24987961593534996,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 708.0,
+   "hub_neighbour_share": 0.42307692766189575,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 6870.10009765625,
+   "in_1d": 3455.909912109375,
+   "out_7d": 7597.41015625,
+   "in_7d": 4046.429931640625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3987-20251201",
+  "dataset": "HI",
+  "account": "account_3987",
+  "date": "2025-12-01",
+  "decision_timestamp": "2025-12-02 00:00:00",
+  "score": 0.9024010300636292,
+  "p_cal": 0.11174423993413304,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 357.0,
+   "hub_neighbour_share": 0.7142857313156128,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 5619.68994140625,
+   "out_7d": 728.489990234375,
+   "in_7d": 5619.68994140625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5725-20251201",
+  "dataset": "HI",
+  "account": "account_5725",
+  "date": "2025-12-01",
+  "decision_timestamp": "2025-12-02 00:00:00",
+  "score": 0.8490327000617981,
+  "p_cal": 0.07228249150351791,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 458.0,
+   "hub_neighbour_share": 0.1818181872367859,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 21.09000015258789,
+   "in_1d": 8905.2802734375,
+   "out_7d": 28590.830078125,
+   "in_7d": 10724.3701171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5097-20251201",
+  "dataset": "HI",
+  "account": "account_5097",
+  "date": "2025-12-01",
+  "decision_timestamp": "2025-12-02 00:00:00",
+  "score": 0.8167843222618103,
+  "p_cal": 0.058633323113533135,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 451.0,
+   "hub_neighbour_share": 0.4285714328289032,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 2153.739990234375,
+   "in_1d": 260.7699890136719,
+   "out_7d": 5505.91015625,
+   "in_7d": 2725.6298828125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6676-20251202",
+  "dataset": "HI",
+  "account": "account_6676",
+  "date": "2025-12-02",
+  "decision_timestamp": "2025-12-03 00:00:00",
+  "score": 0.9522743821144104,
+  "p_cal": 0.20886253006723818,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 408.0,
+   "hub_neighbour_share": 0.6363636255264282,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 1943.224365234375,
+   "in_1d": 0.0,
+   "out_7d": 2249.79443359375,
+   "in_7d": 2453.510009765625,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4907-20251202",
+  "dataset": "HI",
+  "account": "account_4907",
+  "date": "2025-12-02",
+  "decision_timestamp": "2025-12-03 00:00:00",
+  "score": 0.9447649717330933,
+  "p_cal": 0.1853903368508029,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 521.0,
+   "hub_neighbour_share": 0.3636363744735718,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 309.1300048828125,
+   "in_1d": 3526.830078125,
+   "out_7d": 1033.1300048828125,
+   "in_7d": 4593.10009765625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2869-20251202",
+  "dataset": "HI",
+  "account": "account_2869",
+  "date": "2025-12-02",
+  "decision_timestamp": "2025-12-03 00:00:00",
+  "score": 0.8518178462982178,
+  "p_cal": 0.07371027685614401,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 686.0,
+   "hub_neighbour_share": 0.7142857313156128,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8937.8095703125,
+   "in_1d": 0.0,
+   "out_7d": 10048.5400390625,
+   "in_7d": 5543.3798828125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6568-20251203",
+  "dataset": "HI",
+  "account": "account_6568",
+  "date": "2025-12-03",
+  "decision_timestamp": "2025-12-04 00:00:00",
+  "score": 0.9796828627586365,
+  "p_cal": 0.3819053438157211,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 42.0,
+   "reach2_7d": 571.0,
+   "hub_neighbour_share": 0.2380952388048172,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 7.0
+  },
+  "amounts": {
+   "out_1d": 125.54000091552734,
+   "in_1d": 5409.0498046875,
+   "out_7d": 1476.3900146484375,
+   "in_7d": 6555.080078125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5805-20251204",
+  "dataset": "HI",
+  "account": "account_5805",
+  "date": "2025-12-04",
+  "decision_timestamp": "2025-12-05 00:00:00",
+  "score": 0.9564787745475769,
+  "p_cal": 0.22466578173154847,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 326.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 11069.259765625,
+   "in_1d": 0.0,
+   "out_7d": 21483.109375,
+   "in_7d": 12693.01953125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5647-20251204",
+  "dataset": "HI",
+  "account": "account_5647",
+  "date": "2025-12-04",
+  "decision_timestamp": "2025-12-05 00:00:00",
+  "score": 0.9511010050773621,
+  "p_cal": 0.20482766435720215,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 647.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 450.0299987792969,
+   "in_1d": 4146.60009765625,
+   "out_7d": 922.3800048828125,
+   "in_7d": 7188.7900390625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4937-20251204",
+  "dataset": "HI",
+  "account": "account_4937",
+  "date": "2025-12-04",
+  "decision_timestamp": "2025-12-05 00:00:00",
+  "score": 0.901685893535614,
+  "p_cal": 0.11097243590691863,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 37.0,
+   "reach2_7d": 915.0,
+   "hub_neighbour_share": 0.3513513505458832,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 9925.4296875,
+   "in_1d": 728.219970703125,
+   "out_7d": 11109.8203125,
+   "in_7d": 10404.1904296875,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2136-20251204",
+  "dataset": "HI",
+  "account": "account_2136",
+  "date": "2025-12-04",
+  "decision_timestamp": "2025-12-05 00:00:00",
+  "score": 0.8696627020835876,
+  "p_cal": 0.08413782299005178,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 522.0,
+   "hub_neighbour_share": 0.699999988079071,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 3044.820068359375,
+   "in_1d": 7030.0,
+   "out_7d": 13603.8603515625,
+   "in_7d": 7030.0,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5994-20251205",
+  "dataset": "HI",
+  "account": "account_5994",
+  "date": "2025-12-05",
+  "decision_timestamp": "2025-12-06 00:00:00",
+  "score": 0.9533259868621826,
+  "p_cal": 0.21261064230713927,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 475.0,
+   "hub_neighbour_share": 0.2916666567325592,
+   "cycles": {
+    "c2": 1.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 6345.7763671875,
+   "in_1d": 144.77000427246094,
+   "out_7d": 7112.80615234375,
+   "in_7d": 7370.9501953125,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4450-20251206",
+  "dataset": "HI",
+  "account": "account_4450",
+  "date": "2025-12-06",
+  "decision_timestamp": "2025-12-07 00:00:00",
+  "score": 0.9499086141586304,
+  "p_cal": 0.2008780266467709,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 701.0,
+   "hub_neighbour_share": 0.52173912525177,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 60.0,
+   "in_1d": 4730.85009765625,
+   "out_7d": 766.9299926757812,
+   "in_7d": 5316.240234375,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4575-20251206",
+  "dataset": "HI",
+  "account": "account_4575",
+  "date": "2025-12-06",
+  "decision_timestamp": "2025-12-07 00:00:00",
+  "score": 0.9312667846679688,
+  "p_cal": 0.15383853847986428,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 4.0,
+   "reach2_7d": 141.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 7916.33984375,
+   "in_1d": 2087.949951171875,
+   "out_7d": 7941.85986328125,
+   "in_7d": 2087.949951171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6702-20251206",
+  "dataset": "HI",
+  "account": "account_6702",
+  "date": "2025-12-06",
+  "decision_timestamp": "2025-12-07 00:00:00",
+  "score": 0.8513385653495789,
+  "p_cal": 0.07346116809344021,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 388.0,
+   "hub_neighbour_share": 0.7142857313156128,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 4364.4599609375,
+   "out_7d": 444.69000244140625,
+   "in_7d": 4754.9599609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2115-20251206",
+  "dataset": "HI",
+  "account": "account_2115",
+  "date": "2025-12-06",
+  "decision_timestamp": "2025-12-07 00:00:00",
+  "score": 0.8024905323982239,
+  "p_cal": 0.0538888295339723,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 498.0,
+   "hub_neighbour_share": 0.2800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 78.16999816894531,
+   "in_1d": 8307.759765625,
+   "out_7d": 763.22998046875,
+   "in_7d": 9589.6796875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3638-20251207",
+  "dataset": "HI",
+  "account": "account_3638",
+  "date": "2025-12-07",
+  "decision_timestamp": "2025-12-08 00:00:00",
+  "score": 0.9682331085205078,
+  "p_cal": 0.28424085416311673,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 740.0,
+   "hub_neighbour_share": 0.37142857909202576,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 13462.9296875,
+   "in_1d": 776.1500244140625,
+   "out_7d": 22648.9609375,
+   "in_7d": 32149.130859375,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6914-20251207",
+  "dataset": "HI",
+  "account": "account_6914",
+  "date": "2025-12-07",
+  "decision_timestamp": "2025-12-08 00:00:00",
+  "score": 0.8374642729759216,
+  "p_cal": 0.06682480878691771,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 196.0,
+   "reach2_7d": 2272.0,
+   "hub_neighbour_share": 0.2806122303009033,
+   "cycles": {
+    "c2": 8.0,
+    "c3": 20.0,
+    "c4": 222.0
+   },
+   "fanin_burst_3d": 24.0,
+   "fanout_burst_3d": 18.0
+  },
+  "amounts": {
+   "out_1d": 5253.740234375,
+   "in_1d": 2201.27001953125,
+   "out_7d": 63849.4609375,
+   "in_7d": 15484.150390625,
+   "n_tx_1d": 30.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3094-20251208",
+  "dataset": "HI",
+  "account": "account_3094",
+  "date": "2025-12-08",
+  "decision_timestamp": "2025-12-09 00:00:00",
+  "score": 0.9525696039199829,
+  "p_cal": 0.2099018571720341,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 630.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 12.789999961853027,
+   "in_1d": 5247.85986328125,
+   "out_7d": 10516.7900390625,
+   "in_7d": 5514.81005859375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6568-20251208",
+  "dataset": "HI",
+  "account": "account_6568",
+  "date": "2025-12-08",
+  "decision_timestamp": "2025-12-09 00:00:00",
+  "score": 0.9228389263153076,
+  "p_cal": 0.13883157466997076,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 656.0,
+   "hub_neighbour_share": 0.34285715222358704,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 95.5,
+   "in_1d": 1277.8699951171875,
+   "out_7d": 1822.969970703125,
+   "in_7d": 7609.35009765625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3991-20251209",
+  "dataset": "HI",
+  "account": "account_3991",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.9810150861740112,
+  "p_cal": 0.397761081607212,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 392.0,
+   "hub_neighbour_share": 0.5454545617103577,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 8346.33984375,
+   "in_1d": 11644.0400390625,
+   "out_7d": 11455.2099609375,
+   "in_7d": 11694.0400390625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2962-20251209",
+  "dataset": "HI",
+  "account": "account_2962",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.9664773941040039,
+  "p_cal": 0.27346517774096024,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 438.0,
+   "hub_neighbour_share": 0.3478260934352875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 216.61000061035156,
+   "in_1d": 1883.1800537109375,
+   "out_7d": 2563.0,
+   "in_7d": 2209.1201171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2929-20251209",
+  "dataset": "HI",
+  "account": "account_2929",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.9531565308570862,
+  "p_cal": 0.2119979543400141,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 23.0,
+   "reach2_7d": 501.0,
+   "hub_neighbour_share": 0.21739129722118378,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 967.260009765625,
+   "in_1d": 3953.239990234375,
+   "out_7d": 1455.550048828125,
+   "in_7d": 4378.6201171875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2714-20251209",
+  "dataset": "HI",
+  "account": "account_2714",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.947879433631897,
+  "p_cal": 0.19448220036288366,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 671.0,
+   "hub_neighbour_share": 0.5416666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8061.1142578125,
+   "in_1d": 1704.989990234375,
+   "out_7d": 9294.9140625,
+   "in_7d": 9562.3203125,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6811-20251209",
+  "dataset": "HI",
+  "account": "account_6811",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.8732507824897766,
+  "p_cal": 0.08654728727521942,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 684.0,
+   "hub_neighbour_share": 0.4444444477558136,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 22.84000015258789,
+   "in_1d": 6561.64013671875,
+   "out_7d": 1220.6099853515625,
+   "in_7d": 6953.10009765625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6462-20251209",
+  "dataset": "HI",
+  "account": "account_6462",
+  "date": "2025-12-09",
+  "decision_timestamp": "2025-12-10 00:00:00",
+  "score": 0.8689700961112976,
+  "p_cal": 0.08368619730194332,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 34.0,
+   "reach2_7d": 767.0,
+   "hub_neighbour_share": 0.44117647409439087,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 7314.16015625,
+   "in_1d": 81.41999816894531,
+   "out_7d": 9429.6796875,
+   "in_7d": 10211.6103515625,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5281-20251210",
+  "dataset": "HI",
+  "account": "account_5281",
+  "date": "2025-12-10",
+  "decision_timestamp": "2025-12-11 00:00:00",
+  "score": 0.9605069756507874,
+  "p_cal": 0.24213059404522924,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 29.0,
+   "reach2_7d": 475.0,
+   "hub_neighbour_share": 0.17241379618644714,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 166.80999755859375,
+   "in_1d": 4566.419921875,
+   "out_7d": 483.79998779296875,
+   "in_7d": 7464.330078125,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3705-20251210",
+  "dataset": "HI",
+  "account": "account_3705",
+  "date": "2025-12-10",
+  "decision_timestamp": "2025-12-11 00:00:00",
+  "score": 0.8266746401786804,
+  "p_cal": 0.06233012928670548,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 3.0,
+   "reach2_7d": 118.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 50.0,
+   "in_1d": 3174.6298828125,
+   "out_7d": 96.91000366210938,
+   "in_7d": 3174.6298828125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2106-20251211",
+  "dataset": "HI",
+  "account": "account_2106",
+  "date": "2025-12-11",
+  "decision_timestamp": "2025-12-12 00:00:00",
+  "score": 0.9595929980278015,
+  "p_cal": 0.2379413901475685,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 565.0,
+   "hub_neighbour_share": 0.36666667461395264,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 137.75999450683594,
+   "in_1d": 3073.64990234375,
+   "out_7d": 1687.780029296875,
+   "in_7d": 5131.68994140625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4786-20251212",
+  "dataset": "HI",
+  "account": "account_4786",
+  "date": "2025-12-12",
+  "decision_timestamp": "2025-12-13 00:00:00",
+  "score": 0.9618319272994995,
+  "p_cal": 0.24846414501518788,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 433.0,
+   "hub_neighbour_share": 0.4444444477558136,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2878.169921875,
+   "out_7d": 697.9400024414062,
+   "in_7d": 3256.570068359375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4693-20251212",
+  "dataset": "HI",
+  "account": "account_4693",
+  "date": "2025-12-12",
+  "decision_timestamp": "2025-12-13 00:00:00",
+  "score": 0.9580796957015991,
+  "p_cal": 0.2313059491962162,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 564.0,
+   "hub_neighbour_share": 0.38461539149284363,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 62.75,
+   "in_1d": 1955.4000244140625,
+   "out_7d": 3979.4599609375,
+   "in_7d": 2834.919921875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4015-20251212",
+  "dataset": "HI",
+  "account": "account_4015",
+  "date": "2025-12-12",
+  "decision_timestamp": "2025-12-13 00:00:00",
+  "score": 0.8787517547607422,
+  "p_cal": 0.09048474110585401,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 535.0,
+   "hub_neighbour_share": 0.6153846383094788,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 4947.2900390625,
+   "in_1d": 15.680000305175781,
+   "out_7d": 15257.830078125,
+   "in_7d": 11116.2099609375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4355-20251213",
+  "dataset": "HI",
+  "account": "account_4355",
+  "date": "2025-12-13",
+  "decision_timestamp": "2025-12-14 00:00:00",
+  "score": 0.9383136034011841,
+  "p_cal": 0.16891982625417903,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 463.0,
+   "hub_neighbour_share": 0.5714285969734192,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 1571.3800048828125,
+   "in_1d": 2143.89990234375,
+   "out_7d": 2483.889892578125,
+   "in_7d": 2272.0,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6041-20251213",
+  "dataset": "HI",
+  "account": "account_6041",
+  "date": "2025-12-13",
+  "decision_timestamp": "2025-12-14 00:00:00",
+  "score": 0.8658811450004578,
+  "p_cal": 0.08172244763270914,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 552.0,
+   "hub_neighbour_share": 0.5384615659713745,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 3665.06005859375,
+   "in_1d": 0.0,
+   "out_7d": 3904.97998046875,
+   "in_7d": 1868.1600341796875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6513-20251213",
+  "dataset": "HI",
+  "account": "account_6513",
+  "date": "2025-12-13",
+  "decision_timestamp": "2025-12-14 00:00:00",
+  "score": 0.8238837122917175,
+  "p_cal": 0.061248837754910995,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 463.0,
+   "hub_neighbour_share": 0.7692307829856873,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 18.09000015258789,
+   "in_1d": 4326.759765625,
+   "out_7d": 1017.4500122070312,
+   "in_7d": 4855.47021484375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4213-20251213",
+  "dataset": "HI",
+  "account": "account_4213",
+  "date": "2025-12-13",
+  "decision_timestamp": "2025-12-14 00:00:00",
+  "score": 0.8165930509567261,
+  "p_cal": 0.058565405697773076,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 336.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 81.7699966430664,
+   "in_1d": 1011.8900146484375,
+   "out_7d": 161.25,
+   "in_7d": 1327.8699951171875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3422-20251214",
+  "dataset": "HI",
+  "account": "account_3422",
+  "date": "2025-12-14",
+  "decision_timestamp": "2025-12-15 00:00:00",
+  "score": 0.9567838311195374,
+  "p_cal": 0.2259024610972153,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 583.0,
+   "hub_neighbour_share": 0.3076923191547394,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 306.1199951171875,
+   "in_1d": 2734.77001953125,
+   "out_7d": 2138.610107421875,
+   "in_7d": 3973.889892578125,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4424-20251214",
+  "dataset": "HI",
+  "account": "account_4424",
+  "date": "2025-12-14",
+  "decision_timestamp": "2025-12-15 00:00:00",
+  "score": 0.8764398694038391,
+  "p_cal": 0.08879230135169619,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 44.0,
+   "reach2_7d": 1023.0,
+   "hub_neighbour_share": 0.2954545319080353,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 4547.22021484375,
+   "in_1d": 10.140000343322754,
+   "out_7d": 41887.16015625,
+   "in_7d": 2902.06005859375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2049-20251214",
+  "dataset": "HI",
+  "account": "account_2049",
+  "date": "2025-12-14",
+  "decision_timestamp": "2025-12-15 00:00:00",
+  "score": 0.8307119607925415,
+  "p_cal": 0.06395132779655006,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 475.0,
+   "hub_neighbour_share": 0.875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 1555.47998046875,
+   "in_1d": 0.0,
+   "out_7d": 2073.739990234375,
+   "in_7d": 1415.9100341796875,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4203-20251214",
+  "dataset": "HI",
+  "account": "account_4203",
+  "date": "2025-12-14",
+  "decision_timestamp": "2025-12-15 00:00:00",
+  "score": 0.8014450073242188,
+  "p_cal": 0.05356628598701842,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 26.0,
+   "reach2_7d": 919.0,
+   "hub_neighbour_share": 0.5384615659713745,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 3.0,
+    "c4": 8.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 118.88999938964844,
+   "in_1d": 1167.449951171875,
+   "out_7d": 515.22998046875,
+   "in_7d": 2021.6400146484375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4422-20251215",
+  "dataset": "HI",
+  "account": "account_4422",
+  "date": "2025-12-15",
+  "decision_timestamp": "2025-12-16 00:00:00",
+  "score": 0.9628387093544006,
+  "p_cal": 0.2534962710065622,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 332.0,
+   "hub_neighbour_share": 0.4285714328289032,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 5205.58984375,
+   "out_7d": 2338.070068359375,
+   "in_7d": 5410.5,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2143-20251215",
+  "dataset": "HI",
+  "account": "account_2143",
+  "date": "2025-12-15",
+  "decision_timestamp": "2025-12-16 00:00:00",
+  "score": 0.9519527554512024,
+  "p_cal": 0.20774144567907768,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 536.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 79.87999725341797,
+   "in_1d": 6010.97021484375,
+   "out_7d": 860.030029296875,
+   "in_7d": 7714.64990234375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6093-20251215",
+  "dataset": "HI",
+  "account": "account_6093",
+  "date": "2025-12-15",
+  "decision_timestamp": "2025-12-16 00:00:00",
+  "score": 0.8185235261917114,
+  "p_cal": 0.05925687640398358,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 199.0,
+   "hub_neighbour_share": 0.8333333134651184,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 171.55999755859375,
+   "in_1d": 3348.60009765625,
+   "out_7d": 171.55999755859375,
+   "in_7d": 3733.590087890625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5161-20251216",
+  "dataset": "HI",
+  "account": "account_5161",
+  "date": "2025-12-16",
+  "decision_timestamp": "2025-12-17 00:00:00",
+  "score": 0.955202043056488,
+  "p_cal": 0.21962876258576638,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 557.0,
+   "hub_neighbour_share": 0.3181818127632141,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 8154.93994140625,
+   "in_1d": 0.0,
+   "out_7d": 9227.830078125,
+   "in_7d": 8996.9296875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5273-20251216",
+  "dataset": "HI",
+  "account": "account_5273",
+  "date": "2025-12-16",
+  "decision_timestamp": "2025-12-17 00:00:00",
+  "score": 0.9491442441940308,
+  "p_cal": 0.19842209861624635,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 470.0,
+   "hub_neighbour_share": 0.3181818127632141,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 870.7000122070312,
+   "in_1d": 2632.340087890625,
+   "out_7d": 1194.93994140625,
+   "in_7d": 3630.639892578125,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4673-20251216",
+  "dataset": "HI",
+  "account": "account_4673",
+  "date": "2025-12-16",
+  "decision_timestamp": "2025-12-17 00:00:00",
+  "score": 0.8807567954063416,
+  "p_cal": 0.09199923019095126,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 7.0,
+   "reach2_7d": 428.0,
+   "hub_neighbour_share": 0.8571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 4339.10986328125,
+   "in_1d": 0.0,
+   "out_7d": 5533.22998046875,
+   "in_7d": 6332.60986328125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3650-20251216",
+  "dataset": "HI",
+  "account": "account_3650",
+  "date": "2025-12-16",
+  "decision_timestamp": "2025-12-17 00:00:00",
+  "score": 0.8707835078239441,
+  "p_cal": 0.08487774180496625,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 515.0,
+   "hub_neighbour_share": 0.6363636255264282,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 8147.64990234375,
+   "in_1d": 0.0,
+   "out_7d": 8921.240234375,
+   "in_7d": 8695.150390625,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3863-20251216",
+  "dataset": "HI",
+  "account": "account_3863",
+  "date": "2025-12-16",
+  "decision_timestamp": "2025-12-17 00:00:00",
+  "score": 0.827501654624939,
+  "p_cal": 0.06265662634051225,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 10.0,
+   "reach2_7d": 446.0,
+   "hub_neighbour_share": 0.800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 18.309999465942383,
+   "in_1d": 4609.2099609375,
+   "out_7d": 496.07000732421875,
+   "in_7d": 5451.3798828125,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4285-20251217",
+  "dataset": "HI",
+  "account": "account_4285",
+  "date": "2025-12-17",
+  "decision_timestamp": "2025-12-18 00:00:00",
+  "score": 0.9836764931678772,
+  "p_cal": 0.433732193404743,
+  "priority": "P1",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 352.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 5770.1298828125,
+   "in_1d": 6071.97998046875,
+   "out_7d": 6312.72021484375,
+   "in_7d": 6596.31982421875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6914-20251217",
+  "dataset": "HI",
+  "account": "account_6914",
+  "date": "2025-12-17",
+  "decision_timestamp": "2025-12-18 00:00:00",
+  "score": 0.9634379744529724,
+  "p_cal": 0.2565868266336787,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 174.0,
+   "reach2_7d": 1879.0,
+   "hub_neighbour_share": 0.18965516984462738,
+   "cycles": {
+    "c2": 4.0,
+    "c3": 5.0,
+    "c4": 122.0
+   },
+   "fanin_burst_3d": 16.0,
+   "fanout_burst_3d": 17.0
+  },
+  "amounts": {
+   "out_1d": 28141.4609375,
+   "in_1d": 3011.469970703125,
+   "out_7d": 69360.21875,
+   "in_7d": 13433.3798828125,
+   "n_tx_1d": 29.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2059-20251217",
+  "dataset": "HI",
+  "account": "account_2059",
+  "date": "2025-12-17",
+  "decision_timestamp": "2025-12-18 00:00:00",
+  "score": 0.8330447673797607,
+  "p_cal": 0.06492032608981055,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 5.0,
+   "reach2_7d": 276.0,
+   "hub_neighbour_share": 1.0,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2194.1298828125,
+   "out_7d": 526.8699951171875,
+   "in_7d": 2430.969970703125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3501-20251218",
+  "dataset": "HI",
+  "account": "account_3501",
+  "date": "2025-12-18",
+  "decision_timestamp": "2025-12-19 00:00:00",
+  "score": 0.9565569162368774,
+  "p_cal": 0.22498131059844031,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 262.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 5608.18017578125,
+   "in_1d": 45.83000183105469,
+   "out_7d": 5948.0400390625,
+   "in_7d": 5815.9599609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4034-20251219",
+  "dataset": "HI",
+  "account": "account_4034",
+  "date": "2025-12-19",
+  "decision_timestamp": "2025-12-20 00:00:00",
+  "score": 0.9555231928825378,
+  "p_cal": 0.2208751472409639,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 475.0,
+   "hub_neighbour_share": 0.2800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 151.27000427246094,
+   "in_1d": 1836.27001953125,
+   "out_7d": 2049.89990234375,
+   "in_7d": 3290.81005859375,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6697-20251219",
+  "dataset": "HI",
+  "account": "account_6697",
+  "date": "2025-12-19",
+  "decision_timestamp": "2025-12-20 00:00:00",
+  "score": 0.9553541541099548,
+  "p_cal": 0.22021740934488326,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 37.0,
+   "reach2_7d": 952.0,
+   "hub_neighbour_share": 0.3513513505458832,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 244.14999389648438,
+   "in_1d": 4716.990234375,
+   "out_7d": 1351.1800537109375,
+   "in_7d": 6043.2001953125,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3476-20251219",
+  "dataset": "HI",
+  "account": "account_3476",
+  "date": "2025-12-19",
+  "decision_timestamp": "2025-12-20 00:00:00",
+  "score": 0.8531669974327087,
+  "p_cal": 0.07441933548193648,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 461.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 0.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 10208.4697265625,
+   "in_1d": 0.0,
+   "out_7d": 10902.91015625,
+   "in_7d": 9494.33984375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6331-20251220",
+  "dataset": "HI",
+  "account": "account_6331",
+  "date": "2025-12-20",
+  "decision_timestamp": "2025-12-21 00:00:00",
+  "score": 0.857240617275238,
+  "p_cal": 0.07663279466101273,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 384.0,
+   "hub_neighbour_share": 0.5555555820465088,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 10172.990234375,
+   "in_1d": 3613.22998046875,
+   "out_7d": 10382.0,
+   "in_7d": 3790.18994140625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2663-20251221",
+  "dataset": "HI",
+  "account": "account_2663",
+  "date": "2025-12-21",
+  "decision_timestamp": "2025-12-22 00:00:00",
+  "score": 0.9566833972930908,
+  "p_cal": 0.22549387282739464,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 695.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 561.7899780273438,
+   "in_1d": 1936.699951171875,
+   "out_7d": 3926.570068359375,
+   "in_7d": 2912.820068359375,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4048-20251221",
+  "dataset": "HI",
+  "account": "account_4048",
+  "date": "2025-12-21",
+  "decision_timestamp": "2025-12-22 00:00:00",
+  "score": 0.8786827325820923,
+  "p_cal": 0.09043339888013759,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 412.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 6220.18994140625,
+   "out_7d": 239.89999389648438,
+   "in_7d": 6238.6298828125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4983-20251222",
+  "dataset": "HI",
+  "account": "account_4983",
+  "date": "2025-12-22",
+  "decision_timestamp": "2025-12-23 00:00:00",
+  "score": 0.9622870087623596,
+  "p_cal": 0.2507144694388202,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 614.0,
+   "hub_neighbour_share": 0.3571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 130.1699981689453,
+   "in_1d": 3122.5,
+   "out_7d": 936.9500122070312,
+   "in_7d": 6489.06005859375,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4121-20251222",
+  "dataset": "HI",
+  "account": "account_4121",
+  "date": "2025-12-22",
+  "decision_timestamp": "2025-12-23 00:00:00",
+  "score": 0.9113893508911133,
+  "p_cal": 0.12234692641817539,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 6.0,
+   "reach2_7d": 325.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 53.0099983215332,
+   "in_1d": 2072.89990234375,
+   "out_7d": 1254.030029296875,
+   "in_7d": 2072.89990234375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5555-20251222",
+  "dataset": "HI",
+  "account": "account_5555",
+  "date": "2025-12-22",
+  "decision_timestamp": "2025-12-23 00:00:00",
+  "score": 0.8872263431549072,
+  "p_cal": 0.09720651207856496,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 778.0,
+   "hub_neighbour_share": 0.4642857015132904,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 7.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 285.95001220703125,
+   "in_1d": 1318.68994140625,
+   "out_7d": 3301.929931640625,
+   "in_7d": 2097.7900390625,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6651-20251223",
+  "dataset": "HI",
+  "account": "account_6651",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.9716359972953796,
+  "p_cal": 0.3076875032488991,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 36.0,
+   "reach2_7d": 807.0,
+   "hub_neighbour_share": 0.3888888955116272,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 11.0
+   },
+   "fanin_burst_3d": 7.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 319.7699890136719,
+   "in_1d": 5304.66015625,
+   "out_7d": 1954.9200439453125,
+   "in_7d": 6538.43017578125,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4699-20251223",
+  "dataset": "HI",
+  "account": "account_4699",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.9702915549278259,
+  "p_cal": 0.2979842114190203,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 607.0,
+   "hub_neighbour_share": 0.6666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 1988.0382080078125,
+   "in_1d": 1857.7099609375,
+   "out_7d": 2872.2880859375,
+   "in_7d": 2020.3800048828125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2766-20251223",
+  "dataset": "HI",
+  "account": "account_2766",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.9609683156013489,
+  "p_cal": 0.244299998106673,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 1124.0,
+   "hub_neighbour_share": 0.46666666865348816,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 11.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 3056.320068359375,
+   "out_7d": 1439.3800048828125,
+   "in_7d": 3878.97998046875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4323-20251223",
+  "dataset": "HI",
+  "account": "account_4323",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.9578497409820557,
+  "p_cal": 0.23032891474050468,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 30.0,
+   "reach2_7d": 628.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 2149.530029296875,
+   "in_1d": 9905.2001953125,
+   "out_7d": 6803.259765625,
+   "in_7d": 11113.150390625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5414-20251223",
+  "dataset": "HI",
+  "account": "account_5414",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.8765765428543091,
+  "p_cal": 0.08889079960812972,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 671.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 2034.780029296875,
+   "in_1d": 44.27000045776367,
+   "out_7d": 4805.89990234375,
+   "in_7d": 2941.10009765625,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6862-20251223",
+  "dataset": "HI",
+  "account": "account_6862",
+  "date": "2025-12-23",
+  "decision_timestamp": "2025-12-24 00:00:00",
+  "score": 0.8438056111335754,
+  "p_cal": 0.06972649413001375,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 13.0,
+   "reach2_7d": 621.0,
+   "hub_neighbour_share": 0.7692307829856873,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 15477.7197265625,
+   "in_1d": 0.0,
+   "out_7d": 16457.91015625,
+   "in_7d": 8539.33984375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5985-20251224",
+  "dataset": "HI",
+  "account": "account_5985",
+  "date": "2025-12-24",
+  "decision_timestamp": "2025-12-25 00:00:00",
+  "score": 0.9614019989967346,
+  "p_cal": 0.2463740171390415,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 312.0,
+   "hub_neighbour_share": 0.4545454680919647,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 9329.8798828125,
+   "in_1d": 0.0,
+   "out_7d": 9771.8701171875,
+   "in_7d": 8888.7001953125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6664-20251224",
+  "dataset": "HI",
+  "account": "account_6664",
+  "date": "2025-12-24",
+  "decision_timestamp": "2025-12-25 00:00:00",
+  "score": 0.9537180066108704,
+  "p_cal": 0.21404119893933107,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 35.0,
+   "reach2_7d": 894.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 5.0
+  },
+  "amounts": {
+   "out_1d": 2065.18994140625,
+   "in_1d": 11901.25,
+   "out_7d": 4826.009765625,
+   "in_7d": 13066.1904296875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5946-20251224",
+  "dataset": "HI",
+  "account": "account_5946",
+  "date": "2025-12-24",
+  "decision_timestamp": "2025-12-25 00:00:00",
+  "score": 0.8729045391082764,
+  "p_cal": 0.08630953590343994,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 11.0,
+   "reach2_7d": 476.0,
+   "hub_neighbour_share": 0.7272727489471436,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 4554.1298828125,
+   "in_1d": 1314.300048828125,
+   "out_7d": 5440.8798828125,
+   "in_7d": 1374.719970703125,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3170-20251225",
+  "dataset": "HI",
+  "account": "account_3170",
+  "date": "2025-12-25",
+  "decision_timestamp": "2025-12-26 00:00:00",
+  "score": 0.9578883647918701,
+  "p_cal": 0.230492490058542,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 584.0,
+   "hub_neighbour_share": 0.4583333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 4.0
+   },
+   "fanin_burst_3d": 5.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 420.0,
+   "in_1d": 2823.9599609375,
+   "out_7d": 1107.989990234375,
+   "in_7d": 4063.199951171875,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4995-20251225",
+  "dataset": "HI",
+  "account": "account_4995",
+  "date": "2025-12-25",
+  "decision_timestamp": "2025-12-26 00:00:00",
+  "score": 0.9546594023704529,
+  "p_cal": 0.21755335675063714,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 386.0,
+   "hub_neighbour_share": 0.3181818127632141,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 358.6600036621094,
+   "in_1d": 1957.780029296875,
+   "out_7d": 1026.6300048828125,
+   "in_7d": 3531.860107421875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5390-20251225",
+  "dataset": "HI",
+  "account": "account_5390",
+  "date": "2025-12-25",
+  "decision_timestamp": "2025-12-26 00:00:00",
+  "score": 0.8784300088882446,
+  "p_cal": 0.09024581488448677,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 14.0,
+   "reach2_7d": 788.0,
+   "hub_neighbour_share": 0.8571428656578064,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 1.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 16823.380859375,
+   "in_1d": 0.0,
+   "out_7d": 26076.529296875,
+   "in_7d": 14343.4697265625,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6898-20251225",
+  "dataset": "HI",
+  "account": "account_6898",
+  "date": "2025-12-25",
+  "decision_timestamp": "2025-12-26 00:00:00",
+  "score": 0.858580470085144,
+  "p_cal": 0.07738567735188075,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 547.0,
+   "hub_neighbour_share": 0.75,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 653.530029296875,
+   "in_1d": 1770.699951171875,
+   "out_7d": 8773.5302734375,
+   "in_7d": 2112.699951171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5432-20251225",
+  "dataset": "HI",
+  "account": "account_5432",
+  "date": "2025-12-25",
+  "decision_timestamp": "2025-12-26 00:00:00",
+  "score": 0.8510926961898804,
+  "p_cal": 0.07333392626622108,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 71.0,
+   "reach2_7d": 1304.0,
+   "hub_neighbour_share": 0.3661971688270569,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 2.0,
+    "c4": 39.0
+   },
+   "fanin_burst_3d": 7.0,
+   "fanout_burst_3d": 6.0
+  },
+  "amounts": {
+   "out_1d": 3264.5400390625,
+   "in_1d": 53.560001373291016,
+   "out_7d": 7278.490234375,
+   "in_7d": 4033.929931640625,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4650-20251227",
+  "dataset": "HI",
+  "account": "account_4650",
+  "date": "2025-12-27",
+  "decision_timestamp": "2025-12-28 00:00:00",
+  "score": 0.9351592063903809,
+  "p_cal": 0.1618391278017212,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 496.0,
+   "hub_neighbour_share": 0.4545454680919647,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 105.70999908447266,
+   "in_1d": 5448.60986328125,
+   "out_7d": 846.5800170898438,
+   "in_7d": 5724.8701171875,
+   "n_tx_1d": 7.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5936-20251228",
+  "dataset": "HI",
+  "account": "account_5936",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.9554240107536316,
+  "p_cal": 0.22048873892289286,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 457.0,
+   "hub_neighbour_share": 0.375,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 24.530000686645508,
+   "in_1d": 6527.4501953125,
+   "out_7d": 9375.58984375,
+   "in_7d": 7126.81005859375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6504-20251228",
+  "dataset": "HI",
+  "account": "account_6504",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.9529203772544861,
+  "p_cal": 0.2111497623569725,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 25.0,
+   "reach2_7d": 549.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 5.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 613.989990234375,
+   "in_1d": 10268.8701171875,
+   "out_7d": 2847.449951171875,
+   "in_7d": 13562.7099609375,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3922-20251228",
+  "dataset": "HI",
+  "account": "account_3922",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.9264146685600281,
+  "p_cal": 0.14485027454035723,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 43.0,
+   "reach2_7d": 1057.0,
+   "hub_neighbour_share": 0.3720930218696594,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 6.0
+  },
+  "amounts": {
+   "out_1d": 12279.4697265625,
+   "in_1d": 132.92999267578125,
+   "out_7d": 37506.44921875,
+   "in_7d": 12128.0,
+   "n_tx_1d": 8.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5480-20251228",
+  "dataset": "HI",
+  "account": "account_5480",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.8734977841377258,
+  "p_cal": 0.08671758947845618,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 12.0,
+   "reach2_7d": 432.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 6431.35009765625,
+   "in_1d": 0.0,
+   "out_7d": 8347.7900390625,
+   "in_7d": 9707.7001953125,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6300-20251228",
+  "dataset": "HI",
+  "account": "account_6300",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.8734477162361145,
+  "p_cal": 0.08668302276341357,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 15.0,
+   "reach2_7d": 614.0,
+   "hub_neighbour_share": 0.800000011920929,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 37.119998931884766,
+   "in_1d": 5310.75,
+   "out_7d": 680.3699951171875,
+   "in_7d": 5901.6201171875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4342-20251228",
+  "dataset": "HI",
+  "account": "account_4342",
+  "date": "2025-12-28",
+  "decision_timestamp": "2025-12-29 00:00:00",
+  "score": 0.7914546728134155,
+  "p_cal": 0.05063375832557395,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 20.0,
+   "reach2_7d": 574.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2090.050048828125,
+   "in_1d": 80.61000061035156,
+   "out_7d": 2793.050048828125,
+   "in_7d": 12539.3095703125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2758-20251229",
+  "dataset": "HI",
+  "account": "account_2758",
+  "date": "2025-12-29",
+  "decision_timestamp": "2025-12-30 00:00:00",
+  "score": 0.9670485854148865,
+  "p_cal": 0.2768819715606627,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 495.0,
+   "hub_neighbour_share": 0.4166666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 1.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 484.1300048828125,
+   "in_1d": 4126.7099609375,
+   "out_7d": 2605.8701171875,
+   "in_7d": 4443.240234375,
+   "n_tx_1d": 6.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5344-20251229",
+  "dataset": "HI",
+  "account": "account_5344",
+  "date": "2025-12-29",
+  "decision_timestamp": "2025-12-30 00:00:00",
+  "score": 0.9668364524841309,
+  "p_cal": 0.2756033414452489,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 18.0,
+   "reach2_7d": 274.0,
+   "hub_neighbour_share": 0.0555555559694767,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 2658.2900390625,
+   "out_7d": 797.8900146484375,
+   "in_7d": 3334.070068359375,
+   "n_tx_1d": 1.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6717-20251229",
+  "dataset": "HI",
+  "account": "account_6717",
+  "date": "2025-12-29",
+  "decision_timestamp": "2025-12-30 00:00:00",
+  "score": 0.9569917917251587,
+  "p_cal": 0.22675311361559364,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 24.0,
+   "reach2_7d": 577.0,
+   "hub_neighbour_share": 0.2916666567325592,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 54.7400016784668,
+   "in_1d": 2456.7900390625,
+   "out_7d": 1040.0400390625,
+   "in_7d": 5063.72998046875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2843-20251229",
+  "dataset": "HI",
+  "account": "account_2843",
+  "date": "2025-12-29",
+  "decision_timestamp": "2025-12-30 00:00:00",
+  "score": 0.9490155577659607,
+  "p_cal": 0.19801426367822464,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 28.0,
+   "reach2_7d": 741.0,
+   "hub_neighbour_share": 0.3928571343421936,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 6.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 1082.050048828125,
+   "in_1d": 3214.300048828125,
+   "out_7d": 3587.510009765625,
+   "in_7d": 3898.919921875,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6636-20251229",
+  "dataset": "HI",
+  "account": "account_6636",
+  "date": "2025-12-29",
+  "decision_timestamp": "2025-12-30 00:00:00",
+  "score": 0.8968566060066223,
+  "p_cal": 0.10600324363311842,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 16.0,
+   "reach2_7d": 364.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 46.279998779296875,
+   "in_1d": 6829.08984375,
+   "out_7d": 586.47998046875,
+   "in_7d": 7403.72021484375,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4668-20251230",
+  "dataset": "HI",
+  "account": "account_4668",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9706483483314514,
+  "p_cal": 0.30050012813302185,
+  "priority": "P2",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 22.0,
+   "reach2_7d": 343.0,
+   "hub_neighbour_share": 0.09090909361839294,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 3.0
+  },
+  "amounts": {
+   "out_1d": 139.2899932861328,
+   "in_1d": 4766.7099609375,
+   "out_7d": 905.47998046875,
+   "in_7d": 6363.35986328125,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6646-20251230",
+  "dataset": "HI",
+  "account": "account_6646",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9545152187347412,
+  "p_cal": 0.2170082620640791,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 39.0,
+   "reach2_7d": 955.0,
+   "hub_neighbour_share": 0.4871794879436493,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 10.0
+   },
+   "fanin_burst_3d": 4.0,
+   "fanout_burst_3d": 7.0
+  },
+  "amounts": {
+   "out_1d": 12367.099609375,
+   "in_1d": 1203.300048828125,
+   "out_7d": 19936.109375,
+   "in_7d": 4936.81005859375,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3892-20251230",
+  "dataset": "HI",
+  "account": "account_3892",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9490824341773987,
+  "p_cal": 0.19822600778290084,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 8.0,
+   "reach2_7d": 211.0,
+   "hub_neighbour_share": 0.5,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 2939.77001953125,
+   "in_1d": 2451.9599609375,
+   "out_7d": 3139.989990234375,
+   "in_7d": 2459.75,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6415-20251230",
+  "dataset": "HI",
+  "account": "account_6415",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9458117485046387,
+  "p_cal": 0.1883541359662527,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 15.0,
+   "reach2_7d": 416.0,
+   "hub_neighbour_share": 0.5333333611488342,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 2.0
+  },
+  "amounts": {
+   "out_1d": 7832.7900390625,
+   "in_1d": 6111.64990234375,
+   "out_7d": 8968.0595703125,
+   "in_7d": 6111.64990234375,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-5292-20251230",
+  "dataset": "HI",
+  "account": "account_5292",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9193180799484253,
+  "p_cal": 0.1333438906460153,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Unusual activity volume",
+  "key_reason_code": "ACTIVITY_VOLUME",
+  "network": {
+   "degree_7d": 27.0,
+   "reach2_7d": 1062.0,
+   "hub_neighbour_share": 0.5185185074806213,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 3.0
+   },
+   "fanin_burst_3d": 3.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 2943.389892578125,
+   "in_1d": 2034.9599609375,
+   "out_7d": 6105.919921875,
+   "in_7d": 2850.639892578125,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-3161-20251230",
+  "dataset": "HI",
+  "account": "account_3161",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.9144676327705383,
+  "p_cal": 0.12641134657719352,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 20.0,
+   "reach2_7d": 517.0,
+   "hub_neighbour_share": 0.4000000059604645,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 0.0,
+   "in_1d": 1586.0699462890625,
+   "out_7d": 1755.22998046875,
+   "in_7d": 1971.699951171875,
+   "n_tx_1d": 2.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-4717-20251230",
+  "dataset": "HI",
+  "account": "account_4717",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.90975022315979,
+  "p_cal": 0.12027921667681234,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 21.0,
+   "reach2_7d": 456.0,
+   "hub_neighbour_share": 0.3333333432674408,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 400.94000244140625,
+   "in_1d": 3180.3798828125,
+   "out_7d": 2291.570068359375,
+   "in_7d": 3815.219970703125,
+   "n_tx_1d": 5.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-2883-20251230",
+  "dataset": "HI",
+  "account": "account_2883",
+  "date": "2025-12-30",
+  "decision_timestamp": "2025-12-31 00:00:00",
+  "score": 0.8600447773933411,
+  "p_cal": 0.0782231663321613,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 9.0,
+   "reach2_7d": 398.0,
+   "hub_neighbour_share": 0.5555555820465088,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 0.0,
+    "c4": 0.0
+   },
+   "fanin_burst_3d": 2.0,
+   "fanout_burst_3d": 1.0
+  },
+  "amounts": {
+   "out_1d": 621.0,
+   "in_1d": 1286.800048828125,
+   "out_7d": 2311.31005859375,
+   "in_7d": 1311.0799560546875,
+   "n_tx_1d": 3.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ },
+ {
+  "id": "RG-HI-6881-20251231",
+  "dataset": "HI",
+  "account": "account_6881",
+  "date": "2025-12-31",
+  "decision_timestamp": "2026-01-01 00:00:00",
+  "score": 0.9153165817260742,
+  "p_cal": 0.1275761935219196,
+  "priority": "P3",
+  "status": "open",
+  "key_reason": "Elevated transfer activity",
+  "key_reason_code": "TRANSFER_ACTIVITY",
+  "network": {
+   "degree_7d": 32.0,
+   "reach2_7d": 726.0,
+   "hub_neighbour_share": 0.21875,
+   "cycles": {
+    "c2": 0.0,
+    "c3": 1.0,
+    "c4": 2.0
+   },
+   "fanin_burst_3d": 6.0,
+   "fanout_burst_3d": 4.0
+  },
+  "amounts": {
+   "out_1d": 12000.009765625,
+   "in_1d": 0.0,
+   "out_7d": 13213.9599609375,
+   "in_7d": 9126.48046875,
+   "n_tx_1d": 4.0,
+   "note": "nominal units; source data has no FX conversion"
+  }
+ }
+]

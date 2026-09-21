@@ -1,0 +1,19 @@
+# RiskGraph EU — Python dependencies for the pipeline, API, tests and quality gates.
+# Lower bounds are the versions this build was tested with (Python 3.12.3); other versions are UNTESTED.
+numpy>=2.4.4
+pandas>=3.0.2,<4
+scipy>=1.17.1
+scikit-learn>=1.8.0
+lightgbm>=4.7.0
+PyYAML>=6.0.3          # scripts/generate_tide.py
+matplotlib>=3.10.8     # legacy Gate 0.5 profiler (ml/profiling)
+tabulate>=0.10.0       # optional: markdown tables in the profiler report
+# --- API (backend/requirements.txt lists the minimal runtime set) ---
+fastapi>=0.141.1
+uvicorn[standard]>=0.53.0
+pydantic>=2.13.5
+# --- tests and quality gates ---
+pytest>=9.1.1
+httpx>=0.28.1
+ruff>=0.16.8
+mypy>=2.3.1

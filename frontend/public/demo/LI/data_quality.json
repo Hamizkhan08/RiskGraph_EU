@@ -1,0 +1,74 @@
+{
+ "dataset": "Tide-LI-local",
+ "rows": 1782179,
+ "nulls": {
+  "ts": 0,
+  "src": 0,
+  "dst": 0,
+  "amount": 0,
+  "currency": 0,
+  "tx_type": 0
+ },
+ "date_min": "2025-01-01 00:02:00",
+ "date_max": "2026-01-07 17:16:34.514337",
+ "period_days": 365,
+ "post_period_rows": 12,
+ "post_period_positive_rows": 12,
+ "post_period_positive_share": 1.0,
+ "in_period_rows": 1782167,
+ "positive_transactions": 1837,
+ "positive_prevalence_tx": 0.0010307675992204995,
+ "duplicate_rows": 0,
+ "nonpositive_amounts": 3,
+ "self_loops": 160,
+ "non_account_endpoint_rows": 9,
+ "n_accounts": 5158,
+ "currencies": {
+  "EUR": 523097,
+  "GBP": 189319,
+  "CHF": 150953,
+  "USD": 143896,
+  "JPY": 91660,
+  "VUV": 78933,
+  "HKD": 75988,
+  "AED": 75555,
+  "BMD": 70324,
+  "BZD": 70294,
+  "SGD": 68871,
+  "XCD": 65084,
+  "SCR": 64985,
+  "BSD": 57790,
+  "BBD": 55418
+ },
+ "tx_types": {
+  "payment": 1250072,
+  "transfer": 203408,
+  "deposit": 188120,
+  "withdrawal": 140567
+ },
+ "positive_by_tx_type": {
+  "transfer": 1801,
+  "deposit": 31,
+  "withdrawal": 5,
+  "payment": 0
+ },
+ "schemes_total": 60,
+ "schemes_by_family": {
+  "FrontBusinessActivity": 14,
+  "RapidFundMovement": 10,
+  "RepeatedOverseasTransfers": 9,
+  "SynchronisedTransactions": 16,
+  "UTurnTransactions": 11
+ },
+ "positive_tx_without_scheme": 0,
+ "scheme_duration_days": {
+  "p50": 12.658814096365742,
+  "p90": 111.33646024753477,
+  "p95": 214.42523160145709,
+  "max": 343.7787258101736
+ },
+ "warnings": [
+  "W_TAIL: 12 rows after the configured period (positive share 1.000); excluded from cases.",
+  "W_TYPE_ARTIFACT: 98.0% of positives are 'transfer' \u2014 transaction type is a near-giveaway generator artefact; report ablations."
+ ]
+}

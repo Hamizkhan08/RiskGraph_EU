@@ -1,0 +1,17 @@
+# Render blueprint (backend). Verified against Render's docs on 2026-09-21: free web services spin down after
+# 15 minutes idle (~1 min cold start) and have an EPHEMERAL filesystem (SQLite decisions are lost on restart).
+services:
+  - type: web
+    name: riskgraph-eu-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: .
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: RISKGRAPH_DEMO_MODE
+        value: "true"
+      - key: RISKGRAPH_CORS_ORIGINS
+        sync: false          # set in the dashboard to your Vercel URL, e.g. https://riskgraph-eu.vercel.app
+      - key: RISKGRAPH_RATE_LIMIT_PER_MIN
+        value: "120"

@@ -1,0 +1,14 @@
+{
+ "datasets": [
+  {
+   "key": "LI",
+   "label": "Low-illicit-ratio condition (locally generated Tide-format data)"
+  },
+  {
+   "key": "HI",
+   "label": "High-illicit-ratio condition (locally generated Tide-format data)"
+  }
+ ],
+ "default": "LI",
+ "disclosure": "SYNTHETIC DATA \u2014 generated locally with the MIT-licensed Tide generator at reduced scale; not the published Zenodo release. Research prototype; not a detection system."
+}

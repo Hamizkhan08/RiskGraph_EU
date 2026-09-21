@@ -1,0 +1,6 @@
+{
+ "type": "platt",
+ "coef": 0.9024577235926049,
+ "intercept": -4.298465641445687,
+ "input": "logit(clip(score,1e-6,1-1e-6))"
+}

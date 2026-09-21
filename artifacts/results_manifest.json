@@ -1,0 +1,4289 @@
+{
+ "n_results": 118,
+ "results": [
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.026222040400582944,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.1697530864197531,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.14276798042927152,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.4135802469135803,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.14822812098621904,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.3904320987654321,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.16665243113809822,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.4012345679012346,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.14034222826372691,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.40277777777777773,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.08944420754423564,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.29629629629629634,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.03905347928441591,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.12734082397003746,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.2608708861149677,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.44569288389513106,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.27543716229034737,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.4513108614232209,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.3321384654965344,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.4837702871410737,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.25271315494227525,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.43508114856429464,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.15790946055973248,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.33707865168539325,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": -0.018518518518518545,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": -0.01851851851851849,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM-M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.013888888888888895,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM-M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": -0.00462962962962965,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.09259259259259262,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.09722222222222221,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.22222222222222224,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.32407407407407407,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": -0.01388888888888884,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.027777777777777735,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0006877632494332671,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0006282154337004412,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0006284607796568003,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0006176864571209072,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0006358138924642303,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.000659529211190785,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_FrontBusinessActivity",
+   "value": 0.41109688145261264,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_FrontBusinessActivity",
+   "value": 0.28727545478713307,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_RapidFundMovement",
+   "value": 0.16474878953656544,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_RapidFundMovement",
+   "value": 0.17077294685990338,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_RepeatedOverseasTransfers",
+   "value": 0.13668242710795905,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_RepeatedOverseasTransfers",
+   "value": 0.08699763593380615,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_SynchronisedTransactions",
+   "value": 0.32996632996632996,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_SynchronisedTransactions",
+   "value": 0.20454545454545459,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_UTurnTransactions",
+   "value": 0.033107980356987726,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_UTurnTransactions",
+   "value": 0.02621146002681041,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.0787037037037037,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.14814814814814814,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.26851851851851855,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.06481481481481481,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.12962962962962962,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.24074074074074073,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.06018518518518518,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.10648148148148148,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "LI",
+   "run_id": "Tide-LI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.21296296296296297,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-LI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.05215597918455264,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.1683673469387755,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.15539033945921052,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.3956916099773243,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.15851655871289022,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.39115646258503406,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.2505435276693253,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.42063492063492064,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.14689878966780423,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.40079365079365076,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "pr_auc_mean",
+   "value": 0.10122423356584571,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.2976190476190476,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.09058937201765561,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.15341488277268092,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.3321332313072138,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.454638124362895,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.3403630869963594,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.4452089704383282,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.43667969714680394,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.48623853211009177,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.31737086375078577,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.45591233435270134,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "all",
+   "metric": "pr_auc_mean",
+   "value": 0.23167015986921582,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "all",
+   "metric": "recall_at_k_m1_mean",
+   "value": 0.3626401630988787,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": -0.008503401360544227,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-M2_lgbm_TB",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.022108843537415046,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM-M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.023809523809523836,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM-M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.008503401360544172,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.086734693877551,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG-A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.09863945578231298,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.23129251700680273,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-M1_logreg_TB",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": 0.2551020408163265,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_diff_m1.0",
+   "value": 0.005102040816326536,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB-A1_lgbm_T",
+   "view": "strict",
+   "metric": "recall_diff_m2.0",
+   "value": -0.018707482993197355,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M1_logreg_TB",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.001788035856659292,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M2_lgbm_TB",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0016578660117502024,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M3_lgbm_TBG",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0016578181775966864,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "M4_lgbm_TBGM",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0015732020096936516,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A1_lgbm_T",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.001669078609211608,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h1",
+   "model": "A2_lgbm_TBG_notype",
+   "view": "strict",
+   "metric": "brier",
+   "value": 0.0017196288313959464,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h1.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_FrontBusinessActivity",
+   "value": 0.4911740249430881,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_FrontBusinessActivity",
+   "value": 0.3214674061188179,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_RapidFundMovement",
+   "value": 0.39276082041343674,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_RapidFundMovement",
+   "value": 0.3909451115333468,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_RepeatedOverseasTransfers",
+   "value": 0.14366739722388264,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_RepeatedOverseasTransfers",
+   "value": 0.10616301175799481,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_SynchronisedTransactions",
+   "value": 0.637037037037037,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_SynchronisedTransactions",
+   "value": 0.6676003734827264,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M3",
+   "view": "post-train window",
+   "metric": "rel_loss_UTurnTransactions",
+   "value": 0.15590299492738527,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h2",
+   "model": "M4",
+   "view": "post-train window",
+   "metric": "rel_loss_UTurnTransactions",
+   "value": 0.17775041050903126,
+   "seeds": [
+    11,
+    23,
+    37
+   ],
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h2.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.11054421768707483,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.20748299319727892,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "static",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.34183673469387754,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.07653061224489796,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.14965986394557823,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "rolling",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.29081632653061223,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.05_m1",
+   "value": 0.05952380952380952,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.1_m1",
+   "value": 0.12414965986394558,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  },
+  {
+   "dataset": "HI",
+   "run_id": "Tide-HI-local-fv1-r1",
+   "stage": "h3",
+   "model": "conformal",
+   "view": "strict",
+   "metric": "realised_miss_alpha0.2_m1",
+   "value": 0.2653061224489796,
+   "seeds": "1",
+   "feature_version": "fv1",
+   "split": {
+    "burn_in": [
+     "2025-01-01",
+     "2025-01-30"
+    ],
+    "train": [
+     "2025-01-31",
+     "2025-07-29"
+    ],
+    "validation": [
+     "2025-07-30",
+     "2025-09-27"
+    ],
+    "purge": [
+     "2025-09-28",
+     "2025-10-11"
+    ],
+    "test": [
+     "2025-10-12",
+     "2025-12-31"
+    ]
+   },
+   "source": "artifacts/runs/Tide-HI-local-fv1-r1/h3.json"
+  }
+ ]
+}

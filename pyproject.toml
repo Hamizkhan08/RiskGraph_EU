@@ -1,0 +1,29 @@
+[project]
+name = "riskgraph-eu"
+version = "1.0.0"
+description = "RiskGraph EU - research prototype for capacity-aware financial-crime alert prioritisation (public/synthetic data only)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "backend/tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["frontend", "artifacts", "data/raw", "data/interim", "data/processed"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E501", "E741", "B905", "UP037", "B023", "E731"]
+
+[tool.mypy]
+python_version = "3.12"
+ignore_missing_imports = true
+warn_unused_ignores = false
+check_untyped_defs = false
+
+[tool.ruff.lint.per-file-ignores]
+"ml/profiling/*" = ["E702", "E701", "B007", "UP", "F841"]  # legacy Gate-0.5 profiling instrument, kept verbatim
+"tests/*" = ["B011"]

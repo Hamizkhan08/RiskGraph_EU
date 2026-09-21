@@ -1,0 +1,58 @@
+# --- Data: never commit (IBM AMLworld is CDLA-Sharing-1.0; SAML-D licence unresolved) ---
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.npy
+*.npz
+!artifacts/demo/**/*.npz
+*_Patterns.txt
+*_Trans.csv
+
+# --- Generated outputs ---
+# artifacts/demo (the application bundle) and artifacts/results_manifest.json ARE committed; large run arrays are not.
+artifacts/runs/*/scores_*.npz
+artifacts/runs/*/model_main.txt
+outputs/
+*.zip
+
+# --- Secrets / credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+kaggle.json
+.kaggle/
+secrets/
+credentials*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+
+# --- Node ---
+node_modules/
+.next/
+.vercel/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

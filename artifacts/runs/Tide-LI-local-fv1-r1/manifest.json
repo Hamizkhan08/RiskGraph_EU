@@ -1,0 +1,415 @@
+{
+ "run_id": "Tide-LI-local-fv1-r1",
+ "timestamp_utc": "2026-09-20T15:49:23+00:00",
+ "pipeline_version": "1.0.0",
+ "feature_version": "fv1",
+ "dataset": {
+  "name": "Tide-LI-local",
+  "adapter": "tide",
+  "generator": "mntijn/Tide (MIT)",
+  "generator_commit": "522ccebf266d6a77ddf29e59725d5b27a5a8a0a3",
+  "seed": 42,
+  "config": {
+   "individuals": 1500,
+   "num_illicit_patterns": 60,
+   "target_fraud_ratio": 0.0005
+  },
+  "period_days": 365,
+  "start_date": "2025-01-01",
+  "source_note": "locally generated Tide-format data at reduced scale (NOT the Zenodo release)",
+  "files_sha256": {
+   "generated_transactions.csv": "467230d754d91ec895eade6a500305b99b2691d035bb637cde04dff0918b7d68",
+   "generated_patterns.json": "7cc8101fe347a5777eb6b1dc161228f7532ec0ec6aad4b720f8265157b9f1cd3"
+  },
+  "excluded_columns": [
+   "generated_nodes.csv (all)",
+   "ownership_*",
+   "time_since_previous_transaction"
+  ]
+ },
+ "unit_of_analysis": "account-day; decision timestamp = end of day d",
+ "split": {
+  "burn_in": {
+   "days": [
+    0,
+    30
+   ],
+   "dates": [
+    "2025-01-01",
+    "2025-01-30"
+   ]
+  },
+  "train": {
+   "days": [
+    30,
+    210
+   ],
+   "dates": [
+    "2025-01-31",
+    "2025-07-29"
+   ]
+  },
+  "validation": {
+   "days": [
+    210,
+    270
+   ],
+   "dates": [
+    "2025-07-30",
+    "2025-09-27"
+   ]
+  },
+  "purge": {
+   "days": [
+    270,
+    284
+   ],
+   "dates": [
+    "2025-09-28",
+    "2025-10-11"
+   ]
+  },
+  "test": {
+   "days": [
+    284,
+    365
+   ],
+   "dates": [
+    "2025-10-12",
+    "2025-12-31"
+   ]
+  },
+  "h2_window_start_day": 224
+ },
+ "seeds": [
+  11,
+  23,
+  37
+ ],
+ "lgbm_params": {
+  "n_estimators": 300,
+  "learning_rate": 0.05,
+  "num_leaves": 31,
+  "min_child_samples": 20,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "reg_lambda": 1.0,
+  "verbosity": -1,
+  "n_jobs": 1
+ },
+ "neg_train_fraction": 0.04,
+ "capacity": {
+  "multipliers": [
+   0.5,
+   1.0,
+   2.0,
+   5.0
+  ],
+  "primary": 1.0,
+  "train_prevalence_cases": 0.002985257948455245,
+  "rule": "K_d = ceil(m * p_train * new_cases_d)"
+ },
+ "policy": {
+  "alpha_grid": [
+   0.05,
+   0.1,
+   0.2
+  ],
+  "primary_alpha": 0.1,
+  "label_delay_days": 3,
+  "backlog_expiry_days": 3,
+  "conformal_window_days": 60,
+  "min_calibration_positives": 20
+ },
+ "calibration": "Platt (sigmoid) on validation, strict view (new schemes only)",
+ "evaluation_views": {
+  "strict": "drops positive cases whose schemes all started before the block (primary)",
+  "all": "keeps them (sensitivity)"
+ },
+ "models": {
+  "M1_logreg_TB": {
+   "kind": "logreg",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_n_transfer_out_1d",
+    "t_n_transfer_in_1d",
+    "t_n_deposit_1d",
+    "t_n_withdrawal_1d",
+    "t_n_payment_1d",
+    "t_transfer_share_7d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d",
+    "b_new_cp_out_1d",
+    "b_new_cp_in_1d",
+    "b_new_cp_share_1d",
+    "b_distinct_cp_30d",
+    "b_repeat_share_30d",
+    "b_recip_cp_cum",
+    "b_z_out_amt",
+    "b_z_out_cnt",
+    "b_velocity_ratio",
+    "b_imbalance_7d",
+    "b_top_cp_share_1d",
+    "b_active_days_30d"
+   ],
+   "label": "Logistic regression (T+B)"
+  },
+  "M2_lgbm_TB": {
+   "kind": "lgbm",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_n_transfer_out_1d",
+    "t_n_transfer_in_1d",
+    "t_n_deposit_1d",
+    "t_n_withdrawal_1d",
+    "t_n_payment_1d",
+    "t_transfer_share_7d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d",
+    "b_new_cp_out_1d",
+    "b_new_cp_in_1d",
+    "b_new_cp_share_1d",
+    "b_distinct_cp_30d",
+    "b_repeat_share_30d",
+    "b_recip_cp_cum",
+    "b_z_out_amt",
+    "b_z_out_cnt",
+    "b_velocity_ratio",
+    "b_imbalance_7d",
+    "b_top_cp_share_1d",
+    "b_active_days_30d"
+   ],
+   "label": "Gradient boosting (T+B) \u2014 transaction/behaviour baseline"
+  },
+  "M3_lgbm_TBG": {
+   "kind": "lgbm",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_n_transfer_out_1d",
+    "t_n_transfer_in_1d",
+    "t_n_deposit_1d",
+    "t_n_withdrawal_1d",
+    "t_n_payment_1d",
+    "t_transfer_share_7d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d",
+    "b_new_cp_out_1d",
+    "b_new_cp_in_1d",
+    "b_new_cp_share_1d",
+    "b_distinct_cp_30d",
+    "b_repeat_share_30d",
+    "b_recip_cp_cum",
+    "b_z_out_amt",
+    "b_z_out_cnt",
+    "b_velocity_ratio",
+    "b_imbalance_7d",
+    "b_top_cp_share_1d",
+    "b_active_days_30d",
+    "g_deg_out_7d",
+    "g_deg_in_7d",
+    "g_deg_und_7d",
+    "g_reach2_7d",
+    "g_nbr_mean_deg_7d",
+    "g_nbr_hub_share_7d",
+    "g_nbr_act_1d",
+    "g_triangles_7d"
+   ],
+   "label": "Graph-enhanced gradient boosting (T+B+G)"
+  },
+  "M4_lgbm_TBGM": {
+   "kind": "lgbm",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_n_transfer_out_1d",
+    "t_n_transfer_in_1d",
+    "t_n_deposit_1d",
+    "t_n_withdrawal_1d",
+    "t_n_payment_1d",
+    "t_transfer_share_7d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d",
+    "b_new_cp_out_1d",
+    "b_new_cp_in_1d",
+    "b_new_cp_share_1d",
+    "b_distinct_cp_30d",
+    "b_repeat_share_30d",
+    "b_recip_cp_cum",
+    "b_z_out_amt",
+    "b_z_out_cnt",
+    "b_velocity_ratio",
+    "b_imbalance_7d",
+    "b_top_cp_share_1d",
+    "b_active_days_30d",
+    "g_deg_out_7d",
+    "g_deg_in_7d",
+    "g_deg_und_7d",
+    "g_reach2_7d",
+    "g_nbr_mean_deg_7d",
+    "g_nbr_hub_share_7d",
+    "g_nbr_act_1d",
+    "g_triangles_7d",
+    "m_cycle2_7d",
+    "m_cycle3_7d",
+    "m_cycle4_7d",
+    "m_fanin_burst_3d",
+    "m_fanout_burst_3d",
+    "m_passthrough_3d",
+    "m_near10k_7d",
+    "m_near10k_1d"
+   ],
+   "label": "Typology/motif-aware boosting (T+B+G+M)"
+  },
+  "A1_lgbm_T": {
+   "kind": "lgbm",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_n_transfer_out_1d",
+    "t_n_transfer_in_1d",
+    "t_n_deposit_1d",
+    "t_n_withdrawal_1d",
+    "t_n_payment_1d",
+    "t_transfer_share_7d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d"
+   ],
+   "label": "Ablation: own activity only (T)"
+  },
+  "A2_lgbm_TBG_notype": {
+   "kind": "lgbm",
+   "features": [
+    "t_n_out_1d",
+    "t_n_in_1d",
+    "t_amt_out_1d",
+    "t_amt_in_1d",
+    "t_max_out_1d",
+    "t_max_in_1d",
+    "t_mean_out_1d",
+    "t_std_out_1d",
+    "t_n_out_7d",
+    "t_n_in_7d",
+    "t_amt_out_7d",
+    "t_amt_in_7d",
+    "t_n_out_30d",
+    "t_n_in_30d",
+    "t_amt_out_30d",
+    "t_amt_in_30d",
+    "t_night_share_1d",
+    "t_n_ccy_7d",
+    "t_out_in_ratio_1d",
+    "b_new_cp_out_1d",
+    "b_new_cp_in_1d",
+    "b_new_cp_share_1d",
+    "b_distinct_cp_30d",
+    "b_repeat_share_30d",
+    "b_recip_cp_cum",
+    "b_z_out_amt",
+    "b_z_out_cnt",
+    "b_velocity_ratio",
+    "b_imbalance_7d",
+    "b_top_cp_share_1d",
+    "b_active_days_30d",
+    "g_deg_out_7d",
+    "g_deg_in_7d",
+    "g_deg_und_7d",
+    "g_reach2_7d",
+    "g_nbr_mean_deg_7d",
+    "g_nbr_hub_share_7d",
+    "g_nbr_act_1d",
+    "g_triangles_7d"
+   ],
+   "label": "Ablation: T+B+G without transaction-type features"
+  }
+ },
+ "families": [
+  "FrontBusinessActivity",
+  "RapidFundMovement",
+  "RepeatedOverseasTransfers",
+  "SynchronisedTransactions",
+  "UTurnTransactions"
+ ],
+ "bootstrap": {
+  "resamples": 500,
+  "unit": "scheme cluster"
+ }
+}

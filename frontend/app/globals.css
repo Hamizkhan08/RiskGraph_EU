@@ -1,0 +1,128 @@
+@import "tailwindcss";
+
+/* ─── Mastercard-inspired Design System ──────────────────────────────────── */
+:root {
+  /* Surfaces */
+  --canvas-cream:   #F3F0EE;   /* Body canvas — warm putty, never sterile white */
+  --lifted-cream:   #FCFBFA;   /* Raised cards, nested sections */
+  --soft-bone:      #F4F4F4;   /* Subtle surface alternate */
+  --white:          #FFFFFF;   /* Nav pill, modal, satellite CTAs */
+
+  /* Ink & Text */
+  --ink-black:      #141413;   /* Primary text, headings, primary CTA bg */
+  --charcoal:       #262627;   /* Soft alternate for subheads */
+  --slate-gray:     #696969;   /* Muted / secondary text */
+  --granite:        #555555;   /* Body accent, link alternate */
+  --dust-taupe:     #D1CDC7;   /* Whisper / placeholder text */
+
+  /* Accent */
+  --signal-orange:  #CF4500;   /* Compliance / consent only — never marketing CTA */
+  --light-orange:   #F37338;   /* Orbital arcs, decorative, carousel indicators */
+  --clay-brown:     #9A3A0A;   /* Deep rust for secondary link buttons */
+  --link-blue:      #3860BE;   /* Inline links / informational callouts */
+
+  /* Borders */
+  --border-ink:     rgba(20, 20, 19, 0.12);   /* Default border on cream */
+  --border-ink-md:  rgba(20, 20, 19, 0.20);   /* Medium emphasis border */
+  --border-ink-strong: rgba(20, 20, 19, 0.80); /* Button outline */
+
+  /* Shadows (atmospheric, never hard) */
+  --shadow-xs:  rgba(0, 0, 0, 0.04) 0px 4px 24px 0px;   /* Nav pill */
+  --shadow-sm:  rgba(0, 0, 0, 0.08) 0px 24px 48px 0px;  /* Cards */
+  --shadow-lg:  rgba(0, 0, 0, 0.25) 0px 70px 110px 0px; /* Feature tile */
+
+  /* Semantic aliases */
+  --bg-base:    var(--canvas-cream);
+  --bg-card:    var(--lifted-cream);
+  --bg-sidebar: var(--canvas-cream);
+  --bg-header:  rgba(255,255,255,0.85);
+  --text-primary: var(--ink-black);
+  --text-muted:   var(--slate-gray);
+  --background: var(--canvas-cream);
+  --foreground: var(--ink-black);
+
+  /* Border radius scale (Mastercard: skip 8–16, commit to 20 / 40 / 999) */
+  --radius-btn:    20px;   /* Primary & secondary buttons */
+  --radius-card:   40px;   /* Cards, hero frames, stadium shapes */
+  --radius-pill:   999px;  /* Nav, tags, country selector */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--canvas-cream);
+  color: var(--ink-black);
+  /* Sofia Sans = Mastercard's own open-source fallback */
+  font-family: "Sofia Sans", "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-feature-settings: "tnum" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink-black);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ─── Scrollbar (warm, unobtrusive) ─────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--canvas-cream); }
+::-webkit-scrollbar-thumb { background: var(--dust-taupe); border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: var(--slate-gray); }
+
+/* ─── Typography helpers (Mastercard rules) ──────────────────────────────── */
+.mc-h1 {
+  font-size: 64px; font-weight: 500; line-height: 64px;
+  letter-spacing: -0.02em;  /* -2% */
+  color: var(--ink-black);
+}
+.mc-h2 {
+  font-size: 36px; font-weight: 500; line-height: 44px;
+  letter-spacing: -0.02em;
+  color: var(--ink-black);
+}
+.mc-h3 {
+  font-size: 24px; font-weight: 500; line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--ink-black);
+}
+.mc-eyebrow {
+  font-size: 14px; font-weight: 700; line-height: 14px;
+  letter-spacing: 0.04em;  /* +4% */
+  text-transform: uppercase;
+  color: var(--slate-gray);
+}
+.mc-body {
+  font-size: 16px; font-weight: 400; line-height: 1.4;
+  color: var(--charcoal);
+}
+
+/* ─── Animations ─────────────────────────────────────────────────────────── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -600px 0; }
+  100% { background-position: 600px 0; }
+}
+@keyframes subtlePulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.6; }
+}
+
+.animate-fade-in-up { animation: fadeInUp 0.35s ease both; }
+.animate-shimmer    { animation: shimmer 1.8s infinite linear; }
+.animate-pulse-soft { animation: subtlePulse 2s ease-in-out infinite; }

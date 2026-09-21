@@ -1,0 +1,277 @@
+{
+ "model_features": [
+  "t_n_out_1d",
+  "t_n_in_1d",
+  "t_amt_out_1d",
+  "t_amt_in_1d",
+  "t_max_out_1d",
+  "t_max_in_1d",
+  "t_mean_out_1d",
+  "t_std_out_1d",
+  "t_n_out_7d",
+  "t_n_in_7d",
+  "t_amt_out_7d",
+  "t_amt_in_7d",
+  "t_n_out_30d",
+  "t_n_in_30d",
+  "t_amt_out_30d",
+  "t_amt_in_30d",
+  "t_n_transfer_out_1d",
+  "t_n_transfer_in_1d",
+  "t_n_deposit_1d",
+  "t_n_withdrawal_1d",
+  "t_n_payment_1d",
+  "t_transfer_share_7d",
+  "t_night_share_1d",
+  "t_n_ccy_7d",
+  "t_out_in_ratio_1d",
+  "b_new_cp_out_1d",
+  "b_new_cp_in_1d",
+  "b_new_cp_share_1d",
+  "b_distinct_cp_30d",
+  "b_repeat_share_30d",
+  "b_recip_cp_cum",
+  "b_z_out_amt",
+  "b_z_out_cnt",
+  "b_velocity_ratio",
+  "b_imbalance_7d",
+  "b_top_cp_share_1d",
+  "b_active_days_30d",
+  "g_deg_out_7d",
+  "g_deg_in_7d",
+  "g_deg_und_7d",
+  "g_reach2_7d",
+  "g_nbr_mean_deg_7d",
+  "g_nbr_hub_share_7d",
+  "g_nbr_act_1d",
+  "g_triangles_7d"
+ ],
+ "features": {
+  "t_n_out_1d": {
+   "group": "T",
+   "definition": "count of outgoing transactions on day d"
+  },
+  "t_n_in_1d": {
+   "group": "T",
+   "definition": "count of incoming transactions on day d"
+  },
+  "t_amt_out_1d": {
+   "group": "T",
+   "definition": "sum of outgoing amounts on day d"
+  },
+  "t_amt_in_1d": {
+   "group": "T",
+   "definition": "sum of incoming amounts on day d"
+  },
+  "t_max_out_1d": {
+   "group": "T",
+   "definition": "largest outgoing amount on day d"
+  },
+  "t_max_in_1d": {
+   "group": "T",
+   "definition": "largest incoming amount on day d"
+  },
+  "t_mean_out_1d": {
+   "group": "T",
+   "definition": "mean outgoing amount on day d (0 if none)"
+  },
+  "t_std_out_1d": {
+   "group": "T",
+   "definition": "std of outgoing amounts on day d (dispersion)"
+  },
+  "t_n_out_7d": {
+   "group": "T",
+   "definition": "outgoing count, trailing 7 days incl. d"
+  },
+  "t_n_in_7d": {
+   "group": "T",
+   "definition": "incoming count, trailing 7 days incl. d"
+  },
+  "t_amt_out_7d": {
+   "group": "T",
+   "definition": "outgoing amount sum, trailing 7 days"
+  },
+  "t_amt_in_7d": {
+   "group": "T",
+   "definition": "incoming amount sum, trailing 7 days"
+  },
+  "t_n_out_30d": {
+   "group": "T",
+   "definition": "outgoing count, trailing 30 days"
+  },
+  "t_n_in_30d": {
+   "group": "T",
+   "definition": "incoming count, trailing 30 days"
+  },
+  "t_amt_out_30d": {
+   "group": "T",
+   "definition": "outgoing amount sum, trailing 30 days"
+  },
+  "t_amt_in_30d": {
+   "group": "T",
+   "definition": "incoming amount sum, trailing 30 days"
+  },
+  "t_n_transfer_out_1d": {
+   "group": "T",
+   "definition": "outgoing transactions of type transfer on day d"
+  },
+  "t_n_transfer_in_1d": {
+   "group": "T",
+   "definition": "incoming transactions of type transfer on day d"
+  },
+  "t_n_deposit_1d": {
+   "group": "T",
+   "definition": "transactions of type deposit (either direction) on day d"
+  },
+  "t_n_withdrawal_1d": {
+   "group": "T",
+   "definition": "transactions of type withdrawal (either direction) on day d"
+  },
+  "t_n_payment_1d": {
+   "group": "T",
+   "definition": "transactions of type payment (either direction) on day d"
+  },
+  "t_transfer_share_7d": {
+   "group": "T",
+   "definition": "share of transfers among all transactions, trailing 7 days"
+  },
+  "t_night_share_1d": {
+   "group": "T",
+   "definition": "share of day-d transactions between 00:00 and 05:59"
+  },
+  "t_n_ccy_7d": {
+   "group": "T",
+   "definition": "distinct transaction currencies, trailing 7 days"
+  },
+  "t_out_in_ratio_1d": {
+   "group": "T",
+   "definition": "log((1+out amount)/(1+in amount)) on day d"
+  },
+  "b_new_cp_out_1d": {
+   "group": "B",
+   "definition": "outgoing counterparties first seen on day d"
+  },
+  "b_new_cp_in_1d": {
+   "group": "B",
+   "definition": "incoming counterparties first seen on day d"
+  },
+  "b_new_cp_share_1d": {
+   "group": "B",
+   "definition": "new counterparties / transactions on day d"
+  },
+  "b_distinct_cp_30d": {
+   "group": "B",
+   "definition": "distinct counterparties (either direction), trailing 30 days"
+  },
+  "b_repeat_share_30d": {
+   "group": "B",
+   "definition": "1 - distinct counterparties / transactions, trailing 30 days"
+  },
+  "b_recip_cp_cum": {
+   "group": "B",
+   "definition": "counterparties with transfers in both directions observed up to day d"
+  },
+  "b_z_out_amt": {
+   "group": "B",
+   "definition": "z-score of day-d outgoing amount vs the previous 30 days"
+  },
+  "b_z_out_cnt": {
+   "group": "B",
+   "definition": "z-score of day-d outgoing count vs the previous 30 days"
+  },
+  "b_velocity_ratio": {
+   "group": "B",
+   "definition": "day-d transaction count / (mean daily count of previous 30 days + 0.1)"
+  },
+  "b_imbalance_7d": {
+   "group": "B",
+   "definition": "(in - out)/(in + out) amount, trailing 7 days"
+  },
+  "b_top_cp_share_1d": {
+   "group": "B",
+   "definition": "largest counterparty's share of day-d outgoing amount"
+  },
+  "b_active_days_30d": {
+   "group": "B",
+   "definition": "days with any activity in trailing 30 days"
+  },
+  "g_deg_out_7d": {
+   "group": "G",
+   "definition": "distinct outgoing counterparties, trailing 7 days"
+  },
+  "g_deg_in_7d": {
+   "group": "G",
+   "definition": "distinct incoming counterparties, trailing 7 days"
+  },
+  "g_deg_und_7d": {
+   "group": "G",
+   "definition": "distinct counterparties (undirected), trailing 7 days"
+  },
+  "g_reach2_7d": {
+   "group": "G",
+   "definition": "accounts within 2 hops in the 7-day undirected window graph"
+  },
+  "g_nbr_mean_deg_7d": {
+   "group": "G",
+   "definition": "mean degree of neighbours in the 7-day window graph"
+  },
+  "g_nbr_hub_share_7d": {
+   "group": "G",
+   "definition": "share of neighbours with degree >= 20"
+  },
+  "g_nbr_act_1d": {
+   "group": "G",
+   "definition": "mean day-d transaction count of neighbours"
+  },
+  "g_triangles_7d": {
+   "group": "G",
+   "definition": "undirected triangles through the account, 7-day window graph"
+  },
+  "m_cycle2_7d": {
+   "group": "M",
+   "definition": "directed 2-cycles (reciprocal pairs) through the account, 7-day graph"
+  },
+  "m_cycle3_7d": {
+   "group": "M",
+   "definition": "directed 3-cycles through the account, 7-day graph"
+  },
+  "m_cycle4_7d": {
+   "group": "M",
+   "definition": "directed 4-cycles (closed walks of length 4) through the account, 7-day graph"
+  },
+  "m_fanin_burst_3d": {
+   "group": "M",
+   "definition": "max over last 3 days of distinct incoming counterparties in one day"
+  },
+  "m_fanout_burst_3d": {
+   "group": "M",
+   "definition": "max over last 3 days of distinct outgoing counterparties in one day"
+  },
+  "m_passthrough_3d": {
+   "group": "M",
+   "definition": "min(in,out)/max(in,out) amount over the last 3 days (rapid pass-through)"
+  },
+  "m_near10k_7d": {
+   "group": "M",
+   "definition": "transactions with amount in [9000,10000), trailing 7 days"
+  },
+  "m_near10k_1d": {
+   "group": "M",
+   "definition": "transactions with amount in [9000,10000) on day d"
+  }
+ },
+ "reason_labels": {
+  "TRANSFER_ACTIVITY": "Elevated transfer activity",
+  "ACTIVITY_VOLUME": "Unusual activity volume",
+  "VELOCITY": "Rapid change in activity vs recent history",
+  "NEW_COUNTERPARTIES": "Many new counterparties",
+  "DEVIATION": "Deviation from the account's own history",
+  "NETWORK_CONTEXT": "Network context (counterparty structure)",
+  "CIRCULAR_FLOW": "Circular flow of funds",
+  "FAN_IN_BURST": "Burst of incoming counterparties",
+  "FAN_OUT_BURST": "Burst of outgoing counterparties",
+  "PASS_THROUGH": "Rapid pass-through of funds",
+  "NEAR_THRESHOLD": "Amounts just below the 10,000 threshold",
+  "OTHER": "Other behavioural signal"
+ }
+}

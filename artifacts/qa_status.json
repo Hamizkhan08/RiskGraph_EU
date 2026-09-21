@@ -1,0 +1,122 @@
+{
+ "timestamp_utc": "2026-09-21T14:11:37+00:00",
+ "gates": [
+  {
+   "gate": "ruff check",
+   "cmd": "ruff check .",
+   "exit": 0,
+   "seconds": 0.0,
+   "ok": true,
+   "tail": [
+    "All checks passed!"
+   ]
+  },
+  {
+   "gate": "ruff format --check",
+   "cmd": "ruff format --check .",
+   "exit": 0,
+   "seconds": 0.0,
+   "ok": true,
+   "tail": [
+    "76 files already formatted"
+   ]
+  },
+  {
+   "gate": "mypy",
+   "cmd": "/usr/bin/python3 -m mypy riskgraph backend/app scripts --ignore-missing-imports --explicit-package-bases",
+   "exit": 0,
+   "seconds": 25.0,
+   "ok": true,
+   "tail": [
+    "Success: no issues found in 33 source files"
+   ]
+  },
+  {
+   "gate": "pytest",
+   "cmd": "/usr/bin/python3 -m pytest --junitxml=/tmp/qa_junit.xml -q",
+   "exit": 0,
+   "seconds": 18.4,
+   "ok": true,
+   "tail": [
+    "........................................................................ [ 96%]",
+    "...                                                                      [100%]"
+   ]
+  },
+  {
+   "gate": "pip-audit (backend)",
+   "cmd": "pip-audit -r backend/requirements.txt",
+   "exit": 0,
+   "seconds": 10.1,
+   "ok": true,
+   "tail": [
+    "No known vulnerabilities found"
+   ]
+  },
+  {
+   "gate": "eslint",
+   "cmd": "npx eslint",
+   "exit": 0,
+   "seconds": 17.7,
+   "ok": true,
+   "tail": []
+  },
+  {
+   "gate": "tsc --noEmit",
+   "cmd": "npx tsc --noEmit",
+   "exit": 0,
+   "seconds": 6.9,
+   "ok": true,
+   "tail": []
+  },
+  {
+   "gate": "vitest",
+   "cmd": "npx vitest run --reporter=json --outputFile=/tmp/qa_vitest.json",
+   "exit": 0,
+   "seconds": 22.8,
+   "ok": true,
+   "tail": [
+    "(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:",
+    "  - `__dirname` (vitest.config.mts:7:41). Use `import.meta.dirname` instead",
+    "Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning."
+   ]
+  },
+  {
+   "gate": "next build",
+   "cmd": "rm -rf .next && npx next build",
+   "exit": 0,
+   "seconds": 43.2,
+   "ok": true,
+   "tail": [
+    "",
+    "\u25cb  (Static)   prerendered as static content",
+    "\u0192  (Dynamic)  server-rendered on demand"
+   ]
+  },
+  {
+   "gate": "npm audit",
+   "cmd": "npm audit",
+   "exit": 0,
+   "seconds": 0.8,
+   "ok": true,
+   "tail": [
+    "found 0 vulnerabilities"
+   ]
+  }
+ ],
+ "counts": {
+  "python": {
+   "tests": 75,
+   "failures": 0,
+   "errors": 0,
+   "skipped": 0
+  },
+  "frontend": {
+   "tests": 38,
+   "passed": 38,
+   "failed": 0,
+   "skipped": 0,
+   "live_contract_included": true
+  }
+ },
+ "all_ok": true
+}
